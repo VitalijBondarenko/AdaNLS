@@ -1,0 +1,14 @@
+project AdaNLS is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Library_Name use "adanls";
+   for Library_Dir use "lib";
+   for Library_Version use "libadanls.so.0.5";
+
+   package Ide is
+      for Documentation_Dir use "doc/html";
+   end Ide;
+
+end AdaNLS;
+

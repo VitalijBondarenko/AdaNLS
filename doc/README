@@ -1,0 +1,5 @@
+AdaNLS is Ada Native Language Support library.
+
+AdaNLS is a binding to the 'libc' functions which provides support for the
+locales and internationalization.
+
