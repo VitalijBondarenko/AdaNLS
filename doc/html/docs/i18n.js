@@ -642,7 +642,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Locale_Category",
-                      "href": "docs/l10n.html#L37C9"
+                      "href": "docs/l10n.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -731,7 +731,7 @@ GNATdoc.Documentation = {
               "column": 38,
               "type": {
                 "label": "L10n.Locale_Category",
-                "docHref": "docs/l10n.html#L37C9"
+                "docHref": "docs/l10n.html#L35C9"
               },
               "description": [
               ]
@@ -1537,7 +1537,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Locale_Category",
-                      "href": "docs/l10n.html#L37C9"
+                      "href": "docs/l10n.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -1642,7 +1642,7 @@ GNATdoc.Documentation = {
               "column": 7,
               "type": {
                 "label": "L10n.Locale_Category",
-                "docHref": "docs/l10n.html#L37C9"
+                "docHref": "docs/l10n.html#L35C9"
               },
               "description": [
               ]

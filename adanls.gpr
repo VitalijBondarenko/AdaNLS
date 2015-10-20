@@ -4,7 +4,7 @@ project AdaNLS is
    for Object_Dir use "obj";
    for Library_Name use "adanls";
    for Library_Dir use "lib";
-   for Library_Version use "libadanls.so.0.5";
+   for Library_Version use "libadanls.so.1.0.0";
 
    package Ide is
       for Documentation_Dir use "doc/html";

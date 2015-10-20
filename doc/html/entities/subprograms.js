@@ -51,9 +51,9 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Get_Locale",
-      "docHref": "docs/l10n.html#L168C13",
+      "docHref": "docs/l10n.html#L66C13",
       "declared": "L10n",
-      "srcHref": "srcs/l10n.ads.html#L168"
+      "srcHref": "srcs/l10n.ads.html#L66"
     },
     {
       "label": "Gettext",
@@ -63,9 +63,9 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Localeconv",
-      "docHref": "docs/l10n.html#L171C13",
-      "declared": "L10n",
-      "srcHref": "srcs/l10n.ads.html#L171"
+      "docHref": "docs/l10n.localeinfo.html#L216C13",
+      "declared": "L10n.Localeinfo",
+      "srcHref": "srcs/l10n-localeinfo.ads.html#L216"
     },
     {
       "label": "Ngettext",
@@ -74,10 +74,16 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/i18n.ads.html#L63"
     },
     {
+      "label": "Nl_Langinfo",
+      "docHref": "docs/l10n.langinfo.html#L139C13",
+      "declared": "L10n.Langinfo",
+      "srcHref": "srcs/l10n-langinfo.ads.html#L139"
+    },
+    {
       "label": "Set_Locale",
-      "docHref": "docs/l10n.html#L155C14",
+      "docHref": "docs/l10n.html#L53C14",
       "declared": "L10n",
-      "srcHref": "srcs/l10n.ads.html#L155"
+      "srcHref": "srcs/l10n.ads.html#L53"
     },
     {
       "label": "Text_Domain",

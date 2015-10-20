@@ -26,6 +26,8 @@
 -- SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                   --
 ------------------------------------------------------------------------------
 
+with Interfaces.C.Strings; use Interfaces.C.Strings;
+
 package body L10n is
 
    pragma Warnings (Off);

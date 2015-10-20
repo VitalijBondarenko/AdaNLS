@@ -1160,7 +1160,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L37C9"
+          "href": "docs/l10n.html#L35C9"
         },
         {
           "kind": "span",
@@ -2098,7 +2098,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L37C9"
+          "href": "docs/l10n.html#L35C9"
         },
         {
           "kind": "span",

@@ -26,12 +26,10 @@
 -- SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                   --
 ------------------------------------------------------------------------------
 
---  The functions to setup locale and access the information for the locale.
-
-with Interfaces.C;         use Interfaces.C;
-with Interfaces.C.Strings; use Interfaces.C.Strings;
+--  The functions to setup locale.
 
 package L10n is
+
    pragma Preelaborate;
 
    type Locale_Category is new Integer;
@@ -52,106 +50,6 @@ package L10n is
    LC_MEASUREMENT    : constant Locale_Category := 11;
    LC_IDENTIFICATION : constant Locale_Category := 12;
 
-   --  The record whose components contain information about how numeric and
-   --  monetary values should be formatted in the current locale.
-   type Lconv_Record is record
-      --  Numeric (non-monetary) information.
-      ---------------------------------------
-
-      -- Decimal point character.
-      Decimal_Point      : chars_ptr;
-
-      --  Thousands separator.
-      Thousands_Sep      : chars_ptr;
-
-      --  Each element is the number of digits in each group;
-      --  elements with higher indices are farther left.
-      --  An element with value CHAR_MAX means that no further grouping is done.
-      --  An element with value 0 means that the previous element is used
-      --  for all groups farther left.
-      Grouping           : chars_ptr;
-
-      --  Monetary information.
-      -------------------------
-
-      --  The international currency symbol for the selected locale.
-      --  First three chars are a currency symbol from ISO 4217.
-      --  Fourth char is the separator.  Fifth char is '\0'.
-      Int_Curr_Symbol    : chars_ptr;
-
-      --  Local currency symbol.
-      Currency_Symbol    : chars_ptr;
-
-      --  Decimal point character.
-      Mon_Decimal_Point  : chars_ptr;
-
-      --  Thousands separator.
-      Mon_Thousands_Sep  : chars_ptr;
-
-      --  Each element is the number of digits in each group;
-      --  elements with higher indices are farther left.
-      --  An element with value CHAR_MAX means that no further grouping is done.
-      --  An element with value 0 means that the previous element is used
-      --  for all groups farther left.
-      Mon_Grouping       : chars_ptr;
-
-      --  Sign for positive values.
-      Positive_Sign      : chars_ptr;
-
-      --  Sign for negative values.
-      Negative_Sign      : chars_ptr;
-
-      --  Int'l fractional digits.
-      Int_Frac_Digits    : unsigned_char;
-
-      --  Local fractional digits.
-      Frac_Digits        : unsigned_char;
-
-      --  1 if currency_symbol precedes a positive value, 0 if succeeds.
-      P_Cs_Precedes      : unsigned_char;
-
-      --  1 if a space separates currency_symbol from a positive value.
-      P_Sep_By_Space     : unsigned_char;
-
-      --  1 if currency_symbol precedes a negative value, 0 if succeeds.
-      N_Cs_Precedes      : unsigned_char;
-
-      --  1 if a space separates currency_symbol from a negative value.
-      N_Sep_By_Space     : unsigned_char;
-
-      --  Positive and negative sign positions:
-      --  0 Parentheses surround the quantity and currency_symbol.
-      --  1 The sign string precedes the quantity and currency_symbol.
-      --  2 The sign string follows the quantity and currency_symbol.
-      --  3 The sign string immediately precedes the currency_symbol.
-      --  4 The sign string immediately follows the currency_symbol.
-      P_Sign_Posn        : unsigned_char;
-      N_Sign_Posn        : unsigned_char;
-
-      --  1 if int_curr_symbol precedes a positive value, 0 if succeeds.
-      Int_P_Cs_Precedes  : unsigned_char;
-
-      --  1 if a space separates int_curr_symbol from a positive value.
-      Int_P_Sep_By_Space : unsigned_char;
-
-      --  1 if int_curr_symbol precedes a negative value, 0 if succeeds.
-      Int_N_Cs_Precedes  : unsigned_char;
-
-      --  1 if a space separates int_curr_symbol from a negative value.
-      Int_N_Sep_By_Space : unsigned_char;
-
-      --  Positive and negative sign positions:
-      --  0 Parentheses surround the quantity and int_curr_symbol.
-      --  1 The sign string precedes the quantity and int_curr_symbol.
-      --  2 The sign string follows the quantity and int_curr_symbol.
-      --  3 The sign string immediately precedes the int_curr_symbol.
-      --  4 The sign string immediately follows the int_curr_symbol.
-      Int_P_Sign_Posn    : unsigned_char;
-      Int_N_Sign_Posn    : unsigned_char;
-   end record;
-   pragma Convention (C, Lconv_Record);
-   type Lconv_Access is access all Lconv_Record;
-
    procedure Set_Locale
      (Category : Locale_Category := LC_ALL; Locale : String := "");
    --  Sets the current locale for category Category to Locale.
@@ -167,13 +65,5 @@ package L10n is
 
    function Get_Locale (Category : Locale_Category := LC_ALL) return String;
    --  Returns the name of the current locale.
-
-   function Localeconv return Lconv_Access;
-   --  Returns a record whose components contain information about how numeric
-   --  and monetary values should be formatted in the current locale.
-
-private
-
-   pragma Import (C, Localeconv, "localeconv");
 
 end L10n;

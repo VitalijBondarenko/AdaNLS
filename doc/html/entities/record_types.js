@@ -3,9 +3,9 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "Lconv_Record",
-      "docHref": "docs/l10n.html#L57C9",
-      "declared": "L10n",
-      "srcHref": "srcs/l10n.ads.html#L57"
+      "docHref": "docs/l10n.localeinfo.html#L38C9",
+      "declared": "L10n.Localeinfo",
+      "srcHref": "srcs/l10n-localeinfo.ads.html#L38"
     }
   ]
 };
