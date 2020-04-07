@@ -2,19 +2,26 @@ with "adanls.gpr";
 
 project AdaNLS_Test is
 
-   for Object_Dir use "obj";
    for Source_Dirs use ("test");
+   for Object_Dir use "obj";
    for Main use ("nls_test.adb");
+   type Operating_System_Type is
+      ("Windows", "POSIX");
+   Operating_System : Operating_System_Type := external ("OPERATING_SYSTEM");
 
-   package Binder is
-   end Binder;
+   package Builder is
+   end Builder;
 
    package Linker is
-   end Linker;
 
-   package Naming is
-      for Casing use "lowercase";
-   end Naming;
+      case Operating_System is
+
+         when "Windows" =>
+
+         when "POSIX" =>
+
+      end case;
+   end Linker;
 
 end AdaNLS_Test;
 

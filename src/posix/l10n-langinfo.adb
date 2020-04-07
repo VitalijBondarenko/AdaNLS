@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2015 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2016 Vitalij Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -26,44 +26,29 @@
 -- SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                   --
 ------------------------------------------------------------------------------
 
---  The functions to setup locale.
+with Interfaces.C.Strings; use Interfaces.C.Strings;
 
-package L10n is
+package body L10n.Langinfo is
 
-   pragma Preelaborate;
+   -----------------
+   -- Nl_Langinfo --
+   -----------------
 
-   type Locale_Category is new Integer;
+   function Nl_Langinfo (Item : Locale_Item) return String is
+      function Internal (Item : Locale_Item) return chars_ptr;
+      pragma Import (C, Internal, "nl_langinfo");
 
-   --  The table of locale categories.
-   --  The categories after LC_ALL in the table are GNU extensions.
-   LC_CTYPE          : constant Locale_Category := 0;
-   LC_NUMERIC        : constant Locale_Category := 1;
-   LC_TIME           : constant Locale_Category := 2;
-   LC_COLLATE        : constant Locale_Category := 3;
-   LC_MONETARY       : constant Locale_Category := 4;
-   LC_MESSAGES       : constant Locale_Category := 5;
-   LC_ALL            : constant Locale_Category := 6;
-   LC_PAPER          : constant Locale_Category := 7;
-   LC_NAME           : constant Locale_Category := 8;
-   LC_ADDRESS        : constant Locale_Category := 9;
-   LC_TELEPHONE      : constant Locale_Category := 10;
-   LC_MEASUREMENT    : constant Locale_Category := 11;
-   LC_IDENTIFICATION : constant Locale_Category := 12;
+      R : chars_ptr := Internal (Item);
 
-   procedure Set_Locale
-     (Category : Locale_Category := LC_ALL; Locale : String := "");
-   --  Sets the current locale for category Category to Locale.
-   --  If you specify an empty string for Locale, this means to read the
-   --  appropriate environment variable and use its value to select the locale
-   --  for Category.
-   --  If you specify an invalid locale name, Set_Locale leaves the current
-   --  locale unchanged.
-   --
-   --  This procedure without parameters must be called before any other
-   --  subprogram in this package. It will initialize internal variables based
-   --  on the environment variables.
+   begin
+      if R = Null_Ptr then
+         return "";
+      else
+         return Value (R);
+      end if;
 
-   function Get_Locale (Category : Locale_Category := LC_ALL) return String;
-   --  Returns the name of the current locale.
+   exception
+         when others => return "";
+   end Nl_Langinfo;
 
-end L10n;
+end L10n.Langinfo;

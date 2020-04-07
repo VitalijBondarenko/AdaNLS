@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2015 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2016 Vitalij Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -26,29 +26,38 @@
 -- SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                   --
 ------------------------------------------------------------------------------
 
-with Interfaces.C.Strings; use Interfaces.C.Strings;
+--  The functions to setup locale.
 
-package body L10n.Langinfo is
+package L10n is
 
-   -----------------
-   -- Nl_Langinfo --
-   -----------------
+   pragma Preelaborate;
 
-   function Nl_Langinfo (Item : Locale_Item) return String is
-      function Internal (Item : Locale_Item) return chars_ptr;
-      pragma Import (C, Internal,  "nl_langinfo");
+   type Locale_Category is new Integer;
 
-      R : chars_ptr := Internal (Item);
+   --  The table of locale categories.
+   LC_ALL      : constant Locale_Category := 0;
+   LC_COLLATE  : constant Locale_Category := 1;
+   LC_CTYPE    : constant Locale_Category := 2;
+   LC_MONETARY : constant Locale_Category := 3;
+   LC_NUMERIC  : constant Locale_Category := 4;
+   LC_TIME     : constant Locale_Category := 5;
+   LC_MIN      : constant Locale_Category := LC_ALL;
+   LC_MAX      : constant Locale_Category := LC_TIME;
 
-   begin
-      if R = Null_Ptr then
-         return "";
-      else
-         return Value (R);
-      end if;
+   procedure Set_Locale
+     (Category : Locale_Category := LC_ALL; Locale : String := "");
+   --  Sets the current locale for category Category to Locale.
+   --  If you specify an empty string for Locale, this means to read the
+   --  appropriate environment variable and use its value to select the locale
+   --  for Category.
+   --  If you specify an invalid locale name, Set_Locale leaves the current
+   --  locale unchanged.
+   --
+   --  This procedure without parameters must be called before any other
+   --  subprogram in this package. It will initialize internal variables based
+   --  on the environment variables.
 
-   exception
-         when others => return "";
-   end Nl_Langinfo;
+   function Get_Locale (Category : Locale_Category := LC_ALL) return String;
+   --  Returns the name of the current locale.
 
-end L10n.Langinfo;
+end L10n;

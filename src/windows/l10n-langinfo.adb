@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2015 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2016 Vitalij Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -28,41 +28,38 @@
 
 with Interfaces.C.Strings; use Interfaces.C.Strings;
 
-package body L10n is
+package body L10n.Langinfo is
 
-   pragma Warnings (Off);
+   -----------------
+   -- Nl_Langinfo --
+   -----------------
 
-   ----------------
-   -- Set_Locale --
-   ----------------
+   function Nl_Langinfo (Item : Locale_Item) return String is
+      function Get_Locale_Info
+        (Locale : String; Item : Locale_Item) return chars_ptr;
+      pragma Import (C, Get_Locale_Info, "Get_Locale_Info_Ex");
 
-   procedure Set_Locale
-     (Category : Locale_Category := LC_ALL; Locale : String := "")
-   is
-      procedure Internal (Category : Locale_Category; Locale : String);
-      pragma Import (C, Internal, "setlocale");
+      function Get_CP_Info return chars_ptr;
+      pragma Import (C, Get_CP_Info, "Get_CP_Info");
 
-   begin
-      Internal (Category, Locale & ASCII.NUL);
-   end Set_Locale;
-
-   ----------------
-   -- Get_Locale --
-   ----------------
-
-   function Get_Locale (Category : Locale_Category := LC_ALL) return String is
-      function Internal
-        (Category : Locale_Category; Locale : chars_ptr) return chars_ptr;
-      pragma Import (C, Internal, "setlocale");
-
-      L : chars_ptr := Internal (Category, Null_Ptr);
+      R : chars_ptr := Null_Ptr;
 
    begin
-      if L = Null_Ptr then
+      case Item is
+         when RADIXCHAR .. CODESET =>
+            R := Get_Locale_Info (Get_Locale, Item);
+         when others =>
+            null;
+      end case;
+
+      if R = Null_Ptr then
          return "";
       else
-         return Value (L);
+         return Value (R);
       end if;
-   end Get_Locale;
 
-end L10n;
+   exception
+         when others => return "";
+   end Nl_Langinfo;
+
+end L10n.Langinfo;
