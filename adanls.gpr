@@ -11,7 +11,7 @@ project AdaNLS is
    case Operating_System is
 
       when "Windows" =>
-         for Source_Dirs use ("src", "src/windows");
+         for Source_Dirs use ("src", "src/posix");
          for Languages use ("Ada", "C");
 
       when "POSIX" =>
@@ -34,14 +34,6 @@ project AdaNLS is
    end Linker;
 
    package Compiler is
-
-      case Operating_System is
-
-         when "Windows" =>
-
-         when "POSIX" =>
-
-      end case;
    end Compiler;
 
    package Builder is
