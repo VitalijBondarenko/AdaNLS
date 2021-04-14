@@ -1,5 +1,6 @@
 project AdaNLS is
 
+   for Create_Missing_Dirs use "True";
    for Object_Dir use "obj";
    for Library_Name use "adanls";
    for Library_Dir use "lib";

@@ -90,8 +90,8 @@ procedure NLS_Test is
 
 begin
    Set_Locale;
-   Bind_Text_Domain ("nls_test", "");
    Text_Domain ("nls_test");
+   Bind_Text_Domain ("nls_test", "");
 
    --  Set_Locale (Locale => "C");
 
