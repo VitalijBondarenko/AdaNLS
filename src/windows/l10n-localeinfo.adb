@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2017 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2022 Vitalii Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -92,13 +92,12 @@ package body L10n.Localeinfo is
       L.N_Sep_By_Space := Natural (C_L.N_Sep_By_Space);
       L.P_Sign_Posn := Natural (C_L.P_Sign_Posn);
       L.N_Sign_Posn := Natural (C_L.N_Sign_Posn);
-      --
---        L.Int_P_Cs_Precedes := Natural (C_L.Int_P_Cs_Precedes);
---        L.Int_P_Sep_By_Space := Natural (C_L.Int_P_Sep_By_Space);
---        L.Int_N_Cs_Precedes := Natural (C_L.Int_N_Cs_Precedes);
---        L.Int_N_Sep_By_Space := Natural (C_L.Int_N_Sep_By_Space);
---        L.Int_P_Sign_Posn := Natural (C_L.Int_P_Sign_Posn);
---        L.Int_N_Sign_Posn := Natural (C_L.Int_N_Sign_Posn);
+      L.Int_P_Cs_Precedes := Natural (C_L.Int_P_Cs_Precedes);
+      L.Int_P_Sep_By_Space := Natural (C_L.Int_P_Sep_By_Space);
+      L.Int_N_Cs_Precedes := Natural (C_L.Int_N_Cs_Precedes);
+      L.Int_N_Sep_By_Space := Natural (C_L.Int_N_Sep_By_Space);
+      L.Int_P_Sign_Posn := Natural (C_L.Int_P_Sign_Posn);
+      L.Int_N_Sign_Posn := Natural (C_L.Int_N_Sign_Posn);
 
       return L;
    end Localeconv;

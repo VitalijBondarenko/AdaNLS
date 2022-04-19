@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2017 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2022 Vitalii Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -157,58 +157,58 @@ package L10n.Localeinfo is
       --  2 The sign string follows the quantity and Currency_Symbol.
       --  3 The sign string immediately precedes the Currency_Symbol.
       --  4 The sign string immediately follows the Currency_Symbol.
---
---        Int_P_Cs_Precedes  : Natural;
---        --  Set to 1 or 0 if the Int_Curr_Symbol respectively precedes or
---        --  succeeds the value for a non-negative internationally formatted
---        --  monetary quantity.
---
---        Int_P_Sep_By_Space : Natural;
---        --  Set to a value indicating the separation of the Int_Curr_Symbol, the
---        --  sign string, and the value for a negative internationally formatted
---        --  monetary quantity.
---        --  0 No space separates the currency symbol and value.
---        --  1 If the currency symbol and sign string are adjacent, a space
---        --    separates them from the value; otherwise, a space separates the
---        --    currency symbol from the value.
---        --  2 If the currency symbol and sign string are adjacent, a space
---        --    separates them; otherwise, a space separates the sign string from
---        --    the value.
---
---        Int_N_Cs_Precedes  : Natural;
---        --  Set to 1 or 0 if the Int_Curr_Symbol respectively precedes or
---        --  succeeds the value for a negative internationally formatted monetary
---        --  quantity.
---
---        Int_N_Sep_By_Space : Natural;
---        --  Set to a value indicating the separation of the Int_Curr_Symbol, the
---        --  sign string, and the value for a negative internationally formatted
---        --  monetary quantity.
---        --  0 No space separates the currency symbol and value.
---        --  1 If the currency symbol and sign string are adjacent, a space
---        --    separates them from the value; otherwise, a space separates the
---        --    currency symbol from the value.
---        --  2 If the currency symbol and sign string are adjacent, a space
---        --    separates them; otherwise, a space separates the sign string from
---        --    the value.
---
---        Int_P_Sign_Posn    : Natural;
---        --  Set to a value indicating the positioning of the Positive_Sign for a
---        --  non-negative internationally formatted monetary quantity.
---        --  0 Parentheses surround the quantity and Int_Curr_Symbol.
---        --  1 The sign string precedes the quantity and Int_Curr_Symbol.
---        --  2 The sign string follows the quantity and Int_Curr_Symbol.
---        --  3 The sign string immediately precedes the Int_Curr_Symbol.
---        --  4 The sign string immediately follows the Int_Curr_Symbol.
---
---        Int_N_Sign_Posn    : Natural;
---        --  Set to a value indicating the positioning of the Negative_Sign for a
---        --  negative internationally formatted monetary quantity.
---        --  0 Parentheses surround the quantity and Int_Curr_Symbol.
---        --  1 The sign string precedes the quantity and Int_Curr_Symbol.
---        --  2 The sign string follows the quantity and Int_Curr_Symbol.
---        --  3 The sign string immediately precedes the Int_Curr_Symbol.
---        --  4 The sign string immediately follows the Int_Curr_Symbol.
+
+      Int_P_Cs_Precedes  : Natural;
+      --  Set to 1 or 0 if the Int_Curr_Symbol respectively precedes or
+      --  succeeds the value for a non-negative internationally formatted
+      --  monetary quantity.
+
+      Int_P_Sep_By_Space : Natural;
+      --  Set to a value indicating the separation of the Int_Curr_Symbol, the
+      --  sign string, and the value for a negative internationally formatted
+      --  monetary quantity.
+      --  0 No space separates the currency symbol and value.
+      --  1 If the currency symbol and sign string are adjacent, a space
+      --    separates them from the value; otherwise, a space separates the
+      --    currency symbol from the value.
+      --  2 If the currency symbol and sign string are adjacent, a space
+      --    separates them; otherwise, a space separates the sign string from
+      --    the value.
+
+      Int_N_Cs_Precedes  : Natural;
+      --  Set to 1 or 0 if the Int_Curr_Symbol respectively precedes or
+      --  succeeds the value for a negative internationally formatted monetary
+      --  quantity.
+
+      Int_N_Sep_By_Space : Natural;
+      --  Set to a value indicating the separation of the Int_Curr_Symbol, the
+      --  sign string, and the value for a negative internationally formatted
+      --  monetary quantity.
+      --  0 No space separates the currency symbol and value.
+      --  1 If the currency symbol and sign string are adjacent, a space
+      --    separates them from the value; otherwise, a space separates the
+      --    currency symbol from the value.
+      --  2 If the currency symbol and sign string are adjacent, a space
+      --    separates them; otherwise, a space separates the sign string from
+      --    the value.
+
+      Int_P_Sign_Posn    : Natural;
+      --  Set to a value indicating the positioning of the Positive_Sign for a
+      --  non-negative internationally formatted monetary quantity.
+      --  0 Parentheses surround the quantity and Int_Curr_Symbol.
+      --  1 The sign string precedes the quantity and Int_Curr_Symbol.
+      --  2 The sign string follows the quantity and Int_Curr_Symbol.
+      --  3 The sign string immediately precedes the Int_Curr_Symbol.
+      --  4 The sign string immediately follows the Int_Curr_Symbol.
+
+      Int_N_Sign_Posn    : Natural;
+      --  Set to a value indicating the positioning of the Negative_Sign for a
+      --  negative internationally formatted monetary quantity.
+      --  0 Parentheses surround the quantity and Int_Curr_Symbol.
+      --  1 The sign string precedes the quantity and Int_Curr_Symbol.
+      --  2 The sign string follows the quantity and Int_Curr_Symbol.
+      --  3 The sign string immediately precedes the Int_Curr_Symbol.
+      --  4 The sign string immediately follows the Int_Curr_Symbol.
    end record;
 
    type Lconv_Access is access all Lconv_Record;
@@ -240,12 +240,12 @@ package L10n.Localeinfo is
       N_Sep_By_Space     : unsigned_char;
       P_Sign_Posn        : unsigned_char;
       N_Sign_Posn        : unsigned_char;
---        Int_P_Cs_Precedes  : unsigned_char;
---        Int_P_Sep_By_Space : unsigned_char;
---        Int_N_Cs_Precedes  : unsigned_char;
---        Int_N_Sep_By_Space : unsigned_char;
---        Int_P_Sign_Posn    : unsigned_char;
---        Int_N_Sign_Posn    : unsigned_char;
+      Int_P_Cs_Precedes  : unsigned_char;
+      Int_P_Sep_By_Space : unsigned_char;
+      Int_N_Cs_Precedes  : unsigned_char;
+      Int_N_Sep_By_Space : unsigned_char;
+      Int_P_Sign_Posn    : unsigned_char;
+      Int_N_Sign_Posn    : unsigned_char;
    end record;
    pragma Convention (C, C_Lconv_Record);
 

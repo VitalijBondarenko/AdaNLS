@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2017 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2022 Vitalii Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -57,7 +57,6 @@ package body L10n.Localeinfo is
       S : String := Value (Grouping);
       U : Unbounded_String := Null_Unbounded_String;
       P : Integer;
-
    begin
       for I in S'Range loop
          P := Character'Pos (S (I));
@@ -72,7 +71,6 @@ package body L10n.Localeinfo is
    ----------------
 
    function Localeconv return Lconv_Access is
-
       C_L : C_Lconv_Access := C_Localeconv;
       L   : Lconv_Access := new Lconv_Record;
    begin

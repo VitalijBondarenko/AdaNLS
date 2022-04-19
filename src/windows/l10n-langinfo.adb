@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2016 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2022 Vitalii Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -43,11 +43,34 @@ package body L10n.Langinfo is
       pragma Import (C, Get_CP_Info, "Get_CP_Info");
 
       R : chars_ptr := Null_Ptr;
-
    begin
       case Item is
          when RADIXCHAR .. CODESET =>
             R := Get_Locale_Info (Get_Locale, Item);
+         when ALTMON_1 =>
+            R := Get_Locale_Info (Get_Locale, MON_1);
+         when ALTMON_2 =>
+            R := Get_Locale_Info (Get_Locale, MON_2);
+         when ALTMON_3 =>
+            R := Get_Locale_Info (Get_Locale, MON_3);
+         when ALTMON_4 =>
+            R := Get_Locale_Info (Get_Locale, MON_4);
+         when ALTMON_5 =>
+            R := Get_Locale_Info (Get_Locale, MON_5);
+         when ALTMON_6 =>
+            R := Get_Locale_Info (Get_Locale, MON_6);
+         when ALTMON_7 =>
+            R := Get_Locale_Info (Get_Locale, MON_7);
+         when ALTMON_8 =>
+            R := Get_Locale_Info (Get_Locale, MON_8);
+         when ALTMON_9 =>
+            R := Get_Locale_Info (Get_Locale, MON_9);
+         when ALTMON_10 =>
+            R := Get_Locale_Info (Get_Locale, MON_10);
+         when ALTMON_11 =>
+            R := Get_Locale_Info (Get_Locale, MON_11);
+         when ALTMON_12 =>
+            R := Get_Locale_Info (Get_Locale, MON_12);
          when others =>
             null;
       end case;

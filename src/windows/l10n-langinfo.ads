@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2016 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2022 Vitalii Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -152,6 +152,21 @@ package L10n.Langinfo is
       --  Value can be used as a format string for represent time in a
       --  locale-specific era-based way.
 
+      ALTMON_1,
+      ALTMON_2,
+      ALTMON_3,
+      ALTMON_4,
+      ALTMON_5,
+      ALTMON_6,
+      ALTMON_7,
+      ALTMON_8,
+      ALTMON_9,
+      ALTMON_10,
+      ALTMON_11,
+      ALTMON_12,
+      --  Long month names, in the grammatical form used when the month
+      --  is named by itself. ALTMON_1 corresponds to January.
+
       YESEXPR,
       --  Regular expression which can be used to recognize a positive response
       --  to a yes/no question.
@@ -283,6 +298,19 @@ private
       ALT_DIGITS  => 16#2002F#,
       ERA_D_T_FMT => 16#20030#,
       ERA_T_FMT   => 16#20031#,
+
+      ALTMON_1    => 16#2006F#,
+      ALTMON_2    => 16#20070#,
+      ALTMON_3    => 16#20071#,
+      ALTMON_4    => 16#20072#,
+      ALTMON_5    => 16#20073#,
+      ALTMON_6    => 16#20074#,
+      ALTMON_7    => 16#20075#,
+      ALTMON_8    => 16#20076#,
+      ALTMON_9    => 16#20077#,
+      ALTMON_10   => 16#20078#,
+      ALTMON_11   => 16#20079#,
+      ALTMON_12   => 16#2007A#,
 
       YESEXPR     => 16#50000#,
       NOEXPR      => 16#50001#);

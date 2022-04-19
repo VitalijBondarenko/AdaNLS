@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2017 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2022 Vitalii Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -41,7 +41,6 @@ package body L10n is
    is
       procedure Internal (Category : Locale_Category; Locale : String);
       pragma Import (C, Internal, "setlocale");
-
    begin
       Internal (Category, Locale & ASCII.NUL);
    end Set_Locale;
@@ -56,7 +55,6 @@ package body L10n is
       pragma Import (C, Internal, "setlocale");
 
       L : chars_ptr := Internal (Category, Null_Ptr);
-
    begin
       if L = Null_Ptr then
          return "";

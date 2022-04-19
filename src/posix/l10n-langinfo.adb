@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2016 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2022 Vitalii Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -39,7 +39,6 @@ package body L10n.Langinfo is
       pragma Import (C, Internal, "nl_langinfo");
 
       R : chars_ptr := Internal (Item);
-
    begin
       if R = Null_Ptr then
          return "";

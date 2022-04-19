@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------
 --                                                                          --
--- Copyright (c) 2014-2017 Vitalij Bondarenko <vibondare@gmail.com>         --
+-- Copyright (c) 2014-2022 Vitalii Bondarenko <vibondare@gmail.com>         --
 --                                                                          --
 ------------------------------------------------------------------------------
 --                                                                          --
@@ -43,9 +43,12 @@ procedure NLS_Test is
 
    package Enum_IO is new Ada.Text_IO.Enumeration_IO (Locale_Item);
 
+   -----------------
+   -- Print_Lconv --
+   -----------------
+
    procedure Print_Lconv is
       Lconv : Lconv_Access;
-
    begin
       Lconv := Localeconv;
       Put_Line ("Localeconv Result");
@@ -68,13 +71,17 @@ procedure NLS_Test is
       Put_Line (-"N_Sep_By_Space : '" & Lconv.N_Sep_By_Space'Img & "'");
       Put_Line (-"Positive sign positions : '" & Lconv.P_Sign_Posn'Img & "'");
       Put_Line (-"Negative sign positions : '" & Lconv.N_Sign_Posn'Img & "'");
---        Put_Line (-"Int_P_Cs_Precedes : '" & Lconv.Int_P_Cs_Precedes'Img & "'");
---        Put_Line (-"Int_P_Sep_By_Space : '" & Lconv.Int_P_Sep_By_Space'Img & "'");
---        Put_Line (-"Int_N_Cs_Precedes : '" & Lconv.Int_N_Cs_Precedes'Img & "'");
---        Put_Line (-"Int_N_Sep_By_Space : '" & Lconv.Int_N_Sep_By_Space'Img & "'");
---        Put_Line (-"Int'l Positive sign positions : '" & Lconv.Int_P_Sign_Posn'Img & "'");
---        Put_Line (-"Int'l Negative sign positions : '" & Lconv.Int_N_Sign_Posn'Img & "'");
+      Put_Line (-"Int_P_Cs_Precedes : '" & Lconv.Int_P_Cs_Precedes'Img & "'");
+      Put_Line (-"Int_P_Sep_By_Space : '" & Lconv.Int_P_Sep_By_Space'Img & "'");
+      Put_Line (-"Int_N_Cs_Precedes : '" & Lconv.Int_N_Cs_Precedes'Img & "'");
+      Put_Line (-"Int_N_Sep_By_Space : '" & Lconv.Int_N_Sep_By_Space'Img & "'");
+      Put_Line (-"Int'l Positive sign positions : '" & Lconv.Int_P_Sign_Posn'Img & "'");
+      Put_Line (-"Int'l Negative sign positions : '" & Lconv.Int_N_Sign_Posn'Img & "'");
    end Print_Lconv;
+
+   -----------------------
+   -- Print_Nl_Langinfo --
+   -----------------------
 
    procedure Print_Nl_Langinfo is
    begin
@@ -93,16 +100,12 @@ begin
    Text_Domain ("nls_test");
    Bind_Text_Domain ("nls_test", "");
 
-   --  Set_Locale (Locale => "C");
-
    --  POSIX format locale name string
+   --  Set_Locale (Locale => "C");
    Set_Locale (Locale => "uk_UA.UTF-8");
-   --
 
    --  Windows format locale name string
    --  Set_Locale (Locale => "Ukrainian_Ukraine.1251");
-   --  Set_Locale (Locale => "Russian_Russia.1251");
-   --
 
    Put_Line (-"Current locale : " & Get_Locale);
    New_Line;
