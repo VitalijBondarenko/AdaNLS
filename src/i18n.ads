@@ -43,8 +43,7 @@ package I18n is
    function "-" (Msg : String) return String renames Gettext;
    --  Shortcut for Gettext (Msg)
 
-   function Dgettext
-     (Domain : String; Msg : String) return String;
+   function Dgettext (Domain : String; Msg : String) return String;
    --  The Dgettext functions acts just like the Gettext function. It only
    --  takes an additional first argument Domain which guides the selection of
    --  the message catalogs which are searched for the translation. If the

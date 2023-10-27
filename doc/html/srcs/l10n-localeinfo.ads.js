@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (c) 2014-2015 Vitalij Bondarenko <vibondare@gmail.com>         --"
+          "text": "-- Copyright (c) 2014-2022 Vitalii Bondarenko <vibondare@gmail.com>         --"
         }
       ]
     },
@@ -338,7 +338,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Interfaces.C"
+          "text": "Ada.Strings.Unbounded"
         },
         {
           "kind": "span",
@@ -348,7 +348,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "         "
+          "text": " "
         },
         {
           "kind": "span",
@@ -363,7 +363,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Interfaces.C"
+          "text": "Ada.Strings.Unbounded"
         },
         {
           "kind": "span",
@@ -389,6 +389,57 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": "Interfaces.C"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "          "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "use"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Interfaces.C"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 33,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": "Interfaces.C.Strings"
         },
         {
@@ -399,7 +450,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -425,13 +476,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 34,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -447,7 +498,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "L10n.Localeinfo",
-          "href": "docs/l10n.localeinfo.html#L34C14"
+          "href": "docs/l10n__localeinfo___spec.html#L35C14"
         },
         {
           "kind": "span",
@@ -463,13 +514,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 36,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -485,7 +536,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -501,7 +552,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -522,7 +573,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Lconv_Record",
-          "href": "docs/l10n.localeinfo.html#L38C9"
+          "href": "docs/l10n__localeinfo___spec.html#L39C9"
         },
         {
           "kind": "span",
@@ -548,13 +599,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 40,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -570,7 +621,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -586,13 +637,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 43,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -603,7 +654,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Decimal_Point",
-          "href": "docs/l10n.localeinfo.html#L43C7"
+          "href": "docs/l10n__localeinfo___spec.html#L44C7"
         },
         {
           "kind": "span",
@@ -623,7 +674,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "chars_ptr"
+          "text": "Unbounded_String"
         },
         {
           "kind": "span",
@@ -634,7 +685,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -650,13 +701,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 46,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -667,7 +718,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Thousands_Sep",
-          "href": "docs/l10n.localeinfo.html#L46C7"
+          "href": "docs/l10n__localeinfo___spec.html#L47C7"
         },
         {
           "kind": "span",
@@ -687,28 +738,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "chars_ptr"
+          "text": "Unbounded_String"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 47,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  The character used to separate groups of digits before the"
         }
       ]
     },
@@ -724,7 +759,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  decimal-point character in formatted non-monetary quantities."
+          "text": "--  The character used to separate groups of digits before the"
         }
       ]
     },
@@ -732,11 +767,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 49,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  decimal-point character in formatted non-monetary quantities."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 50,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 51,
       "children": [
         {
           "kind": "span",
@@ -747,7 +798,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Grouping",
-          "href": "docs/l10n.localeinfo.html#L50C7"
+          "href": "docs/l10n__localeinfo___spec.html#L51C7"
         },
         {
           "kind": "span",
@@ -767,28 +818,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "chars_ptr"
+          "text": "Unbounded_String"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 51,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  A string whose elements taken as one-byte integer values indicate the"
         }
       ]
     },
@@ -804,7 +839,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  size of each group of digits in formatted non-monetary quantities."
+          "text": "--  A string whose elements taken as one-byte integer values indicate the"
         }
       ]
     },
@@ -820,7 +855,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Use either Thousands_Sep to separate the digit groups."
+          "text": "--  size of each group of digits in formatted non-monetary quantities."
         }
       ]
     },
@@ -836,7 +871,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Each element is the number of digits in each group;"
+          "text": "--  Use either Thousands_Sep to separate the digit groups."
         }
       ]
     },
@@ -852,7 +887,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  elements with higher indices are farther left."
+          "text": "--  Each element is the number of digits in each group;"
         }
       ]
     },
@@ -868,7 +903,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  An element with value Interfaces.C.UCHAR_MAX means that no further"
+          "text": "--  elements with higher indices are farther left."
         }
       ]
     },
@@ -884,7 +919,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  grouping is done."
+          "text": "--  An element with value Interfaces.C.UCHAR_MAX means that no further"
         }
       ]
     },
@@ -900,7 +935,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  An element with value 0 means that the previous element is used"
+          "text": "--  grouping is done."
         }
       ]
     },
@@ -916,7 +951,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  for all groups farther left."
+          "text": "--  An element with value 0 means that the previous element is used"
         }
       ]
     },
@@ -924,11 +959,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 60,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  for all groups farther left."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 61,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -944,7 +995,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -960,13 +1011,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 64,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -977,7 +1028,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Int_Curr_Symbol",
-          "href": "docs/l10n.localeinfo.html#L64C7"
+          "href": "docs/l10n__localeinfo___spec.html#L65C7"
         },
         {
           "kind": "span",
@@ -997,28 +1048,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "chars_ptr"
+          "text": "Unbounded_String"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 65,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  The international currency symbol applicable to the current locale."
         }
       ]
     },
@@ -1034,7 +1069,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  The first three characters contain the alphabetic international"
+          "text": "--  The international currency symbol applicable to the current locale."
         }
       ]
     },
@@ -1050,7 +1085,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  currency symbol in accordance with those specified in the"
+          "text": "--  The first three characters contain the alphabetic international"
         }
       ]
     },
@@ -1066,7 +1101,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  ISO 4217:1995 standard. The fourth character (immediately preceding"
+          "text": "--  currency symbol in accordance with those specified in the"
         }
       ]
     },
@@ -1082,7 +1117,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  the null byte) is the character used to separate the international"
+          "text": "--  ISO 4217:1995 standard. The fourth character (immediately preceding"
         }
       ]
     },
@@ -1098,7 +1133,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  currency symbol from the monetary quantity."
+          "text": "--  the null byte) is the character used to separate the international"
         }
       ]
     },
@@ -1106,11 +1141,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 71,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  currency symbol from the monetary quantity."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 72,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -1121,7 +1172,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Currency_Symbol",
-          "href": "docs/l10n.localeinfo.html#L72C7"
+          "href": "docs/l10n__localeinfo___spec.html#L73C7"
         },
         {
           "kind": "span",
@@ -1141,7 +1192,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "chars_ptr"
+          "text": "Unbounded_String"
         },
         {
           "kind": "span",
@@ -1152,7 +1203,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 74,
       "children": [
         {
           "kind": "span",
@@ -1168,13 +1219,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 75,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -1185,7 +1236,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mon_Decimal_Point",
-          "href": "docs/l10n.localeinfo.html#L75C7"
+          "href": "docs/l10n__localeinfo___spec.html#L76C7"
         },
         {
           "kind": "span",
@@ -1205,7 +1256,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "chars_ptr"
+          "text": "Unbounded_String"
         },
         {
           "kind": "span",
@@ -1216,7 +1267,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -1232,13 +1283,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 78,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 79,
       "children": [
         {
           "kind": "span",
@@ -1249,7 +1300,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mon_Thousands_Sep",
-          "href": "docs/l10n.localeinfo.html#L78C7"
+          "href": "docs/l10n__localeinfo___spec.html#L79C7"
         },
         {
           "kind": "span",
@@ -1269,28 +1320,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "chars_ptr"
+          "text": "Unbounded_String"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 79,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  The separator for groups of digits before the decimal-point in"
         }
       ]
     },
@@ -1306,7 +1341,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  formatted monetary quantities."
+          "text": "--  The separator for groups of digits before the decimal-point in"
         }
       ]
     },
@@ -1314,11 +1349,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 81,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  formatted monetary quantities."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 82,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 83,
       "children": [
         {
           "kind": "span",
@@ -1329,7 +1380,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mon_Grouping",
-          "href": "docs/l10n.localeinfo.html#L82C7"
+          "href": "docs/l10n__localeinfo___spec.html#L83C7"
         },
         {
           "kind": "span",
@@ -1349,28 +1400,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "chars_ptr"
+          "text": "Unbounded_String"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 83,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  A string whose elements taken as one-byte integer values indicate the"
         }
       ]
     },
@@ -1386,7 +1421,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  size of each group of digits in formatted monetary quantities."
+          "text": "--  A string whose elements taken as one-byte integer values indicate the"
         }
       ]
     },
@@ -1402,7 +1437,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Use either Mon_Thousands_Sep to separate the digit groups."
+          "text": "--  size of each group of digits in formatted monetary quantities."
         }
       ]
     },
@@ -1418,7 +1453,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Each element is the number of digits in each group;"
+          "text": "--  Use either Mon_Thousands_Sep to separate the digit groups."
         }
       ]
     },
@@ -1434,7 +1469,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  elements with higher indices are farther left."
+          "text": "--  Each element is the number of digits in each group;"
         }
       ]
     },
@@ -1450,7 +1485,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  An element with value Interfaces.C.UCHAR_MAX means that no further"
+          "text": "--  elements with higher indices are farther left."
         }
       ]
     },
@@ -1466,7 +1501,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  grouping is done."
+          "text": "--  An element with value Interfaces.C.UCHAR_MAX means that no further"
         }
       ]
     },
@@ -1482,7 +1517,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  An element with value 0 means that the previous element is used"
+          "text": "--  grouping is done."
         }
       ]
     },
@@ -1498,7 +1533,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  for all groups farther left."
+          "text": "--  An element with value 0 means that the previous element is used"
         }
       ]
     },
@@ -1506,11 +1541,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 92,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  for all groups farther left."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 93,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -1521,7 +1572,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Positive_Sign",
-          "href": "docs/l10n.localeinfo.html#L93C7"
+          "href": "docs/l10n__localeinfo___spec.html#L94C7"
         },
         {
           "kind": "span",
@@ -1541,28 +1592,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "chars_ptr"
+          "text": "Unbounded_String"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 94,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  The string used to indicate a non-negative valued formatted monetary"
         }
       ]
     },
@@ -1578,7 +1613,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  quantity."
+          "text": "--  The string used to indicate a non-negative valued formatted monetary"
         }
       ]
     },
@@ -1586,11 +1621,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 96,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  quantity."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 97,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -1601,7 +1652,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Negative_Sign",
-          "href": "docs/l10n.localeinfo.html#L97C7"
+          "href": "docs/l10n__localeinfo___spec.html#L98C7"
         },
         {
           "kind": "span",
@@ -1621,28 +1672,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "chars_ptr"
+          "text": "Unbounded_String"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 98,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  The string used to indicate a negative valued formatted monetary"
         }
       ]
     },
@@ -1658,7 +1693,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  quantity."
+          "text": "--  The string used to indicate a negative valued formatted monetary"
         }
       ]
     },
@@ -1666,11 +1701,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 100,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  quantity."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 101,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 102,
       "children": [
         {
           "kind": "span",
@@ -1681,7 +1732,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Int_Frac_Digits",
-          "href": "docs/l10n.localeinfo.html#L101C7"
+          "href": "docs/l10n__localeinfo___spec.html#L102C7"
         },
         {
           "kind": "span",
@@ -1701,28 +1752,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 102,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  The number of fractional digits (those after the decimal-point) to be"
         }
       ]
     },
@@ -1738,7 +1773,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  displayed in an internationally formatted monetary quantity."
+          "text": "--  The number of fractional digits (those after the decimal-point) to be"
         }
       ]
     },
@@ -1746,11 +1781,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 104,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  displayed in an internationally formatted monetary quantity."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 105,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 106,
       "children": [
         {
           "kind": "span",
@@ -1761,7 +1812,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Frac_Digits",
-          "href": "docs/l10n.localeinfo.html#L105C7"
+          "href": "docs/l10n__localeinfo___spec.html#L106C7"
         },
         {
           "kind": "span",
@@ -1781,28 +1832,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 106,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  The number of fractional digits (those after the decimal-point) to be"
         }
       ]
     },
@@ -1818,7 +1853,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  displayed in a formatted monetary quantity."
+          "text": "--  The number of fractional digits (those after the decimal-point) to be"
         }
       ]
     },
@@ -1826,11 +1861,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 108,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  displayed in a formatted monetary quantity."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 109,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -1841,7 +1892,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "P_Cs_Precedes",
-          "href": "docs/l10n.localeinfo.html#L109C7"
+          "href": "docs/l10n__localeinfo___spec.html#L110C7"
         },
         {
           "kind": "span",
@@ -1861,28 +1912,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 110,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to 1 if the Currency_Symbol precedes the value for a non-negative"
         }
       ]
     },
@@ -1898,7 +1933,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  formatted monetary quantity."
+          "text": "--  Set to 1 if the Currency_Symbol precedes the value for a non-negative"
         }
       ]
     },
@@ -1914,7 +1949,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  Set to 0 if the symbol succeeds the value."
+          "text": "--  formatted monetary quantity."
         }
       ]
     },
@@ -1922,11 +1957,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 113,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Set to 0 if the symbol succeeds the value."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 114,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 115,
       "children": [
         {
           "kind": "span",
@@ -1937,7 +1988,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "P_Sep_By_Space",
-          "href": "docs/l10n.localeinfo.html#L114C7"
+          "href": "docs/l10n__localeinfo___spec.html#L115C7"
         },
         {
           "kind": "span",
@@ -1957,28 +2008,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 115,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to a value indicating the separation of the Currency_Symbol, the"
         }
       ]
     },
@@ -1994,7 +2029,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  sign string, and the value for a non-negative formatted monetary"
+          "text": "--  Set to a value indicating the separation of the Currency_Symbol, the"
         }
       ]
     },
@@ -2010,7 +2045,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  quantity."
+          "text": "--  sign string, and the value for a non-negative formatted monetary"
         }
       ]
     },
@@ -2026,7 +2061,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  0 No space separates the currency symbol and value."
+          "text": "--  quantity."
         }
       ]
     },
@@ -2042,7 +2077,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  1 If the currency symbol and sign string are adjacent, a space"
+          "text": "--  0 No space separates the currency symbol and value."
         }
       ]
     },
@@ -2058,7 +2093,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    separates them from the value; otherwise, a space separates the"
+          "text": "--  1 If the currency symbol and sign string are adjacent, a space"
         }
       ]
     },
@@ -2074,7 +2109,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    currency symbol from the value."
+          "text": "--    separates them from the value; otherwise, a space separates the"
         }
       ]
     },
@@ -2090,7 +2125,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  2 If the currency symbol and sign string are adjacent, a space"
+          "text": "--    currency symbol from the value."
         }
       ]
     },
@@ -2106,7 +2141,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    separates them; otherwise, a space separates the sign string from"
+          "text": "--  2 If the currency symbol and sign string are adjacent, a space"
         }
       ]
     },
@@ -2122,7 +2157,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    the value."
+          "text": "--    separates them; otherwise, a space separates the sign string from"
         }
       ]
     },
@@ -2130,11 +2165,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 125,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    the value."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 126,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -2145,7 +2196,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "N_Cs_Precedes",
-          "href": "docs/l10n.localeinfo.html#L126C7"
+          "href": "docs/l10n__localeinfo___spec.html#L127C7"
         },
         {
           "kind": "span",
@@ -2165,28 +2216,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 127,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to 1 if the Currency_Symbol precedes the value for a negative"
         }
       ]
     },
@@ -2202,7 +2237,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  formatted monetary quantity. Set to 0 if the symbol succeeds the"
+          "text": "--  Set to 1 if the Currency_Symbol precedes the value for a negative"
         }
       ]
     },
@@ -2218,7 +2253,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  value."
+          "text": "--  formatted monetary quantity. Set to 0 if the symbol succeeds the"
         }
       ]
     },
@@ -2226,11 +2261,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 130,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  value."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 131,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -2241,7 +2292,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "N_Sep_By_Space",
-          "href": "docs/l10n.localeinfo.html#L131C7"
+          "href": "docs/l10n__localeinfo___spec.html#L132C7"
         },
         {
           "kind": "span",
@@ -2261,28 +2312,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 132,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to a value indicating the separation of the Currency_Symbol, the"
         }
       ]
     },
@@ -2298,7 +2333,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  sign string, and the value for a negative formatted monetary quantity."
+          "text": "--  Set to a value indicating the separation of the Currency_Symbol, the"
         }
       ]
     },
@@ -2314,7 +2349,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  0 No space separates the currency symbol and value."
+          "text": "--  sign string, and the value for a negative formatted monetary quantity."
         }
       ]
     },
@@ -2330,7 +2365,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  1 If the currency symbol and sign string are adjacent, a space"
+          "text": "--  0 No space separates the currency symbol and value."
         }
       ]
     },
@@ -2346,7 +2381,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    separates them from the value; otherwise, a space separates the"
+          "text": "--  1 If the currency symbol and sign string are adjacent, a space"
         }
       ]
     },
@@ -2362,7 +2397,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    currency symbol from the value."
+          "text": "--    separates them from the value; otherwise, a space separates the"
         }
       ]
     },
@@ -2378,7 +2413,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  2 If the currency symbol and sign string are adjacent, a space"
+          "text": "--    currency symbol from the value."
         }
       ]
     },
@@ -2394,7 +2429,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    separates them; otherwise, a space separates the sign string from"
+          "text": "--  2 If the currency symbol and sign string are adjacent, a space"
         }
       ]
     },
@@ -2410,7 +2445,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    the value."
+          "text": "--    separates them; otherwise, a space separates the sign string from"
         }
       ]
     },
@@ -2418,11 +2453,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 141,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    the value."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 142,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -2433,7 +2484,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "P_Sign_Posn",
-          "href": "docs/l10n.localeinfo.html#L142C7"
+          "href": "docs/l10n__localeinfo___spec.html#L143C7"
         },
         {
           "kind": "span",
@@ -2453,28 +2504,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 143,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to a value indicating the positioning of the Positive_Sign for a"
         }
       ]
     },
@@ -2490,7 +2525,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  non-negative formatted monetary quantity."
+          "text": "--  Set to a value indicating the positioning of the Positive_Sign for a"
         }
       ]
     },
@@ -2506,7 +2541,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  0 Parentheses surround the quantity and Currency_Symbol."
+          "text": "--  non-negative formatted monetary quantity."
         }
       ]
     },
@@ -2522,7 +2557,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  1 The sign string precedes the quantity and Currency_Symbol."
+          "text": "--  0 Parentheses surround the quantity and Currency_Symbol."
         }
       ]
     },
@@ -2538,7 +2573,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  2 The sign string follows the quantity and Currency_Symbol."
+          "text": "--  1 The sign string precedes the quantity and Currency_Symbol."
         }
       ]
     },
@@ -2554,7 +2589,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  3 The sign string immediately precedes the Currency_Symbol."
+          "text": "--  2 The sign string follows the quantity and Currency_Symbol."
         }
       ]
     },
@@ -2570,7 +2605,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  4 The sign string immediately follows the Currency_Symbol."
+          "text": "--  3 The sign string immediately precedes the Currency_Symbol."
         }
       ]
     },
@@ -2578,11 +2613,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 150,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  4 The sign string immediately follows the Currency_Symbol."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 151,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -2593,7 +2644,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "N_Sign_Posn",
-          "href": "docs/l10n.localeinfo.html#L151C7"
+          "href": "docs/l10n__localeinfo___spec.html#L152C7"
         },
         {
           "kind": "span",
@@ -2613,28 +2664,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 152,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to a value indicating the positioning of the negative_sign for a"
         }
       ]
     },
@@ -2650,7 +2685,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  negative formatted monetary quantity."
+          "text": "--  Set to a value indicating the positioning of the negative_sign for a"
         }
       ]
     },
@@ -2666,7 +2701,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  0 Parentheses surround the quantity and Currency_Symbol."
+          "text": "--  negative formatted monetary quantity."
         }
       ]
     },
@@ -2682,7 +2717,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  1 The sign string precedes the quantity and Currency_Symbol."
+          "text": "--  0 Parentheses surround the quantity and Currency_Symbol."
         }
       ]
     },
@@ -2698,7 +2733,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  2 The sign string follows the quantity and Currency_Symbol."
+          "text": "--  1 The sign string precedes the quantity and Currency_Symbol."
         }
       ]
     },
@@ -2714,7 +2749,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  3 The sign string immediately precedes the Currency_Symbol."
+          "text": "--  2 The sign string follows the quantity and Currency_Symbol."
         }
       ]
     },
@@ -2730,7 +2765,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  4 The sign string immediately follows the Currency_Symbol."
+          "text": "--  3 The sign string immediately precedes the Currency_Symbol."
         }
       ]
     },
@@ -2738,11 +2773,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 159,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  4 The sign string immediately follows the Currency_Symbol."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 160,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 161,
       "children": [
         {
           "kind": "span",
@@ -2753,7 +2804,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Int_P_Cs_Precedes",
-          "href": "docs/l10n.localeinfo.html#L160C7"
+          "href": "docs/l10n__localeinfo___spec.html#L161C7"
         },
         {
           "kind": "span",
@@ -2773,28 +2824,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 161,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to 1 or 0 if the Int_Curr_Symbol respectively precedes or"
         }
       ]
     },
@@ -2810,7 +2845,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  succeeds the value for a non-negative internationally formatted"
+          "text": "--  Set to 1 or 0 if the Int_Curr_Symbol respectively precedes or"
         }
       ]
     },
@@ -2826,7 +2861,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  monetary quantity."
+          "text": "--  succeeds the value for a non-negative internationally formatted"
         }
       ]
     },
@@ -2834,11 +2869,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 164,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  monetary quantity."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 165,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 166,
       "children": [
         {
           "kind": "span",
@@ -2849,7 +2900,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Int_P_Sep_By_Space",
-          "href": "docs/l10n.localeinfo.html#L165C7"
+          "href": "docs/l10n__localeinfo___spec.html#L166C7"
         },
         {
           "kind": "span",
@@ -2869,28 +2920,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 166,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to a value indicating the separation of the Int_Curr_Symbol, the"
         }
       ]
     },
@@ -2906,7 +2941,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  sign string, and the value for a negative internationally formatted"
+          "text": "--  Set to a value indicating the separation of the Int_Curr_Symbol, the"
         }
       ]
     },
@@ -2922,7 +2957,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  monetary quantity."
+          "text": "--  sign string, and the value for a negative internationally formatted"
         }
       ]
     },
@@ -2938,7 +2973,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  0 No space separates the currency symbol and value."
+          "text": "--  monetary quantity."
         }
       ]
     },
@@ -2954,7 +2989,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  1 If the currency symbol and sign string are adjacent, a space"
+          "text": "--  0 No space separates the currency symbol and value."
         }
       ]
     },
@@ -2970,7 +3005,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    separates them from the value; otherwise, a space separates the"
+          "text": "--  1 If the currency symbol and sign string are adjacent, a space"
         }
       ]
     },
@@ -2986,7 +3021,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    currency symbol from the value."
+          "text": "--    separates them from the value; otherwise, a space separates the"
         }
       ]
     },
@@ -3002,7 +3037,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  2 If the currency symbol and sign string are adjacent, a space"
+          "text": "--    currency symbol from the value."
         }
       ]
     },
@@ -3018,7 +3053,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    separates them; otherwise, a space separates the sign string from"
+          "text": "--  2 If the currency symbol and sign string are adjacent, a space"
         }
       ]
     },
@@ -3034,7 +3069,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    the value."
+          "text": "--    separates them; otherwise, a space separates the sign string from"
         }
       ]
     },
@@ -3042,11 +3077,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 176,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    the value."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 177,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 178,
       "children": [
         {
           "kind": "span",
@@ -3057,7 +3108,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Int_N_Cs_Precedes",
-          "href": "docs/l10n.localeinfo.html#L177C7"
+          "href": "docs/l10n__localeinfo___spec.html#L178C7"
         },
         {
           "kind": "span",
@@ -3077,28 +3128,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 178,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to 1 or 0 if the Int_Curr_Symbol respectively precedes or"
         }
       ]
     },
@@ -3114,7 +3149,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  succeeds the value for a negative internationally formatted monetary"
+          "text": "--  Set to 1 or 0 if the Int_Curr_Symbol respectively precedes or"
         }
       ]
     },
@@ -3130,7 +3165,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  quantity."
+          "text": "--  succeeds the value for a negative internationally formatted monetary"
         }
       ]
     },
@@ -3138,11 +3173,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 181,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  quantity."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 182,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -3153,7 +3204,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Int_N_Sep_By_Space",
-          "href": "docs/l10n.localeinfo.html#L182C7"
+          "href": "docs/l10n__localeinfo___spec.html#L183C7"
         },
         {
           "kind": "span",
@@ -3173,28 +3224,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 183,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to a value indicating the separation of the Int_Curr_Symbol, the"
         }
       ]
     },
@@ -3210,7 +3245,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  sign string, and the value for a negative internationally formatted"
+          "text": "--  Set to a value indicating the separation of the Int_Curr_Symbol, the"
         }
       ]
     },
@@ -3226,7 +3261,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  monetary quantity."
+          "text": "--  sign string, and the value for a negative internationally formatted"
         }
       ]
     },
@@ -3242,7 +3277,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  0 No space separates the currency symbol and value."
+          "text": "--  monetary quantity."
         }
       ]
     },
@@ -3258,7 +3293,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  1 If the currency symbol and sign string are adjacent, a space"
+          "text": "--  0 No space separates the currency symbol and value."
         }
       ]
     },
@@ -3274,7 +3309,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    separates them from the value; otherwise, a space separates the"
+          "text": "--  1 If the currency symbol and sign string are adjacent, a space"
         }
       ]
     },
@@ -3290,7 +3325,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    currency symbol from the value."
+          "text": "--    separates them from the value; otherwise, a space separates the"
         }
       ]
     },
@@ -3306,7 +3341,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  2 If the currency symbol and sign string are adjacent, a space"
+          "text": "--    currency symbol from the value."
         }
       ]
     },
@@ -3322,7 +3357,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    separates them; otherwise, a space separates the sign string from"
+          "text": "--  2 If the currency symbol and sign string are adjacent, a space"
         }
       ]
     },
@@ -3338,7 +3373,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--    the value."
+          "text": "--    separates them; otherwise, a space separates the sign string from"
         }
       ]
     },
@@ -3346,11 +3381,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 193,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--    the value."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 194,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 195,
       "children": [
         {
           "kind": "span",
@@ -3361,7 +3412,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Int_P_Sign_Posn",
-          "href": "docs/l10n.localeinfo.html#L194C7"
+          "href": "docs/l10n__localeinfo___spec.html#L195C7"
         },
         {
           "kind": "span",
@@ -3381,28 +3432,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 195,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to a value indicating the positioning of the Positive_Sign for a"
         }
       ]
     },
@@ -3418,7 +3453,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  non-negative internationally formatted monetary quantity."
+          "text": "--  Set to a value indicating the positioning of the Positive_Sign for a"
         }
       ]
     },
@@ -3434,7 +3469,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  0 Parentheses surround the quantity and Int_Curr_Symbol."
+          "text": "--  non-negative internationally formatted monetary quantity."
         }
       ]
     },
@@ -3450,7 +3485,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  1 The sign string precedes the quantity and Int_Curr_Symbol."
+          "text": "--  0 Parentheses surround the quantity and Int_Curr_Symbol."
         }
       ]
     },
@@ -3466,7 +3501,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  2 The sign string follows the quantity and Int_Curr_Symbol."
+          "text": "--  1 The sign string precedes the quantity and Int_Curr_Symbol."
         }
       ]
     },
@@ -3482,7 +3517,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  3 The sign string immediately precedes the Int_Curr_Symbol."
+          "text": "--  2 The sign string follows the quantity and Int_Curr_Symbol."
         }
       ]
     },
@@ -3498,7 +3533,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  4 The sign string immediately follows the Int_Curr_Symbol."
+          "text": "--  3 The sign string immediately precedes the Int_Curr_Symbol."
         }
       ]
     },
@@ -3506,11 +3541,27 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 202,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  4 The sign string immediately follows the Int_Curr_Symbol."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 203,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 204,
       "children": [
         {
           "kind": "span",
@@ -3521,7 +3572,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Int_N_Sign_Posn",
-          "href": "docs/l10n.localeinfo.html#L203C7"
+          "href": "docs/l10n__localeinfo___spec.html#L204C7"
         },
         {
           "kind": "span",
@@ -3541,28 +3592,12 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "unsigned_char"
+          "text": "Natural"
         },
         {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 204,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "comment",
-          "text": "--  Set to a value indicating the positioning of the Negative_Sign for a"
         }
       ]
     },
@@ -3578,7 +3613,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  negative internationally formatted monetary quantity."
+          "text": "--  Set to a value indicating the positioning of the Negative_Sign for a"
         }
       ]
     },
@@ -3594,7 +3629,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  0 Parentheses surround the quantity and Int_Curr_Symbol."
+          "text": "--  negative internationally formatted monetary quantity."
         }
       ]
     },
@@ -3610,7 +3645,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  1 The sign string precedes the quantity and Int_Curr_Symbol."
+          "text": "--  0 Parentheses surround the quantity and Int_Curr_Symbol."
         }
       ]
     },
@@ -3626,7 +3661,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  2 The sign string follows the quantity and Int_Curr_Symbol."
+          "text": "--  1 The sign string precedes the quantity and Int_Curr_Symbol."
         }
       ]
     },
@@ -3642,7 +3677,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  3 The sign string immediately precedes the Int_Curr_Symbol."
+          "text": "--  2 The sign string follows the quantity and Int_Curr_Symbol."
         }
       ]
     },
@@ -3658,13 +3693,29 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "--  4 The sign string immediately follows the Int_Curr_Symbol."
+          "text": "--  3 The sign string immediately precedes the Int_Curr_Symbol."
         }
       ]
     },
     {
       "kind": "line",
       "number": 211,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  4 The sign string immediately follows the Int_Curr_Symbol."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 212,
       "children": [
         {
           "kind": "span",
@@ -3690,74 +3741,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";",
-          "href": "docs/l10n.localeinfo.html#L38C9"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 212,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Convention"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "C"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Lconv_Record",
-          "href": "docs/l10n.localeinfo.html#L38C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "href": "docs/l10n__localeinfo___spec.html#L39C9"
         }
       ]
     },
@@ -3790,7 +3774,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Lconv_Access",
-          "href": "docs/l10n.localeinfo.html#L214C9"
+          "href": "docs/l10n__localeinfo___spec.html#L214C9"
         },
         {
           "kind": "span",
@@ -3831,7 +3815,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Lconv_Record",
-          "href": "docs/l10n.localeinfo.html#L38C9"
+          "href": "docs/l10n__localeinfo___spec.html#L39C9"
         },
         {
           "kind": "span",
@@ -3869,7 +3853,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Localeconv",
-          "href": "docs/l10n.localeinfo.html#L216C13"
+          "href": "docs/l10n__localeinfo___spec.html#L216C13"
         },
         {
           "kind": "span",
@@ -3890,7 +3874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Lconv_Access",
-          "href": "docs/l10n.localeinfo.html#L214C9"
+          "href": "docs/l10n__localeinfo___spec.html#L214C9"
         },
         {
           "kind": "span",
@@ -3943,8 +3927,13 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "private"
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  Localeinfo in C-types"
         }
       ]
     },
@@ -3952,11 +3941,1433 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 221,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 222,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  The record whose components contain information about how numeric and"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 223,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "--  monetary values should be formatted in the current locale."
+        }
       ]
     },
     {
       "kind": "line",
       "number": 224,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Lconv_Record",
+          "href": "docs/l10n__localeinfo___spec.html#L224C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 225,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Decimal_Point",
+          "href": "docs/l10n__localeinfo___spec.html#L225C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "chars_ptr"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 226,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Thousands_Sep",
+          "href": "docs/l10n__localeinfo___spec.html#L226C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "chars_ptr"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 227,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Grouping",
+          "href": "docs/l10n__localeinfo___spec.html#L227C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "           "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "chars_ptr"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 228,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Int_Curr_Symbol",
+          "href": "docs/l10n__localeinfo___spec.html#L228C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "chars_ptr"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 229,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Currency_Symbol",
+          "href": "docs/l10n__localeinfo___spec.html#L229C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "chars_ptr"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 230,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Mon_Decimal_Point",
+          "href": "docs/l10n__localeinfo___spec.html#L230C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "chars_ptr"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 231,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Mon_Thousands_Sep",
+          "href": "docs/l10n__localeinfo___spec.html#L231C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "chars_ptr"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 232,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Mon_Grouping",
+          "href": "docs/l10n__localeinfo___spec.html#L232C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "chars_ptr"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 233,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Positive_Sign",
+          "href": "docs/l10n__localeinfo___spec.html#L233C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "chars_ptr"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 234,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Negative_Sign",
+          "href": "docs/l10n__localeinfo___spec.html#L234C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "chars_ptr"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 235,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Int_Frac_Digits",
+          "href": "docs/l10n__localeinfo___spec.html#L235C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 236,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Frac_Digits",
+          "href": "docs/l10n__localeinfo___spec.html#L236C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 237,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "P_Cs_Precedes",
+          "href": "docs/l10n__localeinfo___spec.html#L237C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 238,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "P_Sep_By_Space",
+          "href": "docs/l10n__localeinfo___spec.html#L238C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 239,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "N_Cs_Precedes",
+          "href": "docs/l10n__localeinfo___spec.html#L239C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 240,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "N_Sep_By_Space",
+          "href": "docs/l10n__localeinfo___spec.html#L240C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 241,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "P_Sign_Posn",
+          "href": "docs/l10n__localeinfo___spec.html#L241C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 242,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "N_Sign_Posn",
+          "href": "docs/l10n__localeinfo___spec.html#L242C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 243,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Int_P_Cs_Precedes",
+          "href": "docs/l10n__localeinfo___spec.html#L243C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 244,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Int_P_Sep_By_Space",
+          "href": "docs/l10n__localeinfo___spec.html#L244C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 245,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Int_N_Cs_Precedes",
+          "href": "docs/l10n__localeinfo___spec.html#L245C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 246,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Int_N_Sep_By_Space",
+          "href": "docs/l10n__localeinfo___spec.html#L246C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 247,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Int_P_Sign_Posn",
+          "href": "docs/l10n__localeinfo___spec.html#L247C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 248,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Int_N_Sign_Posn",
+          "href": "docs/l10n__localeinfo___spec.html#L248C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "unsigned_char"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 249,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "end"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";",
+          "href": "docs/l10n__localeinfo___spec.html#L224C9"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 250,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Convention"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Lconv_Record",
+          "href": "docs/l10n__localeinfo___spec.html#L224C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 251,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 252,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Lconv_Access",
+          "href": "docs/l10n__localeinfo___spec.html#L252C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "access"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "all"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Lconv_Record",
+          "href": "docs/l10n__localeinfo___spec.html#L224C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 253,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 254,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Localeconv",
+          "href": "docs/l10n__localeinfo___spec.html#L254C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Lconv_Access",
+          "href": "docs/l10n__localeinfo___spec.html#L252C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 255,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "pragma"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Import"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "C_Localeconv",
+          "href": "docs/l10n__localeinfo___spec.html#L254C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "string",
+          "text": "\"localeconv\""
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 256,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 257,
       "children": [
         {
           "kind": "span",

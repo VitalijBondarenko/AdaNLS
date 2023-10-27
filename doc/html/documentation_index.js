@@ -1,18 +1,22 @@
 GNATdoc.DocumentationIndex = [
   {
     "label": "I18n",
-    "file": "docs/i18n.html"
+    "qualifier": "",
+    "file": "docs/i18n___spec.html"
   },
   {
     "label": "L10n",
-    "file": "docs/l10n.html"
+    "qualifier": "",
+    "file": "docs/l10n___spec.html"
   },
   {
     "label": "L10n.Langinfo",
-    "file": "docs/l10n.langinfo.html"
+    "qualifier": "",
+    "file": "docs/l10n__langinfo___spec.html"
   },
   {
     "label": "L10n.Localeinfo",
-    "file": "docs/l10n.localeinfo.html"
+    "qualifier": "",
+    "file": "docs/l10n__localeinfo___spec.html"
   }
 ];

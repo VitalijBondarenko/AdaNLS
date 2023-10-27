@@ -1,5 +1,6 @@
 GNATdoc.Documentation = {
   "label": "I18n",
+  "qualifier": "",
   "summary": [
   ],
   "description": [
@@ -8,144 +9,8 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Gettext",
-          "line": 38,
-          "column": 13,
-          "src": "srcs/i18n.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 38,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Gettext",
-                      "href": "docs/i18n.html#L38C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Msg",
-                      "href": "docs/i18n.html#L38C22"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Searches the currently selected message catalogs for a string which is\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "equal to Msg. If there is such a string available it is returned.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Otherwise the argument string Msg is returned.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Msg",
-              "line": 38,
-              "column": 22,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
           "label": "-",
+          "qualifier": "(renaming)",
           "line": 43,
           "column": 14,
           "src": "srcs/i18n.ads.html",
@@ -193,7 +58,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Msg",
-                      "href": "docs/i18n.html#L43C18"
+                      "href": "docs/i18n___spec.html#L43C18"
                     },
                     {
                       "kind": "span",
@@ -293,8 +158,349 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Dgettext",
-          "line": 46,
+          "label": "Bind_Text_Domain",
+          "qualifier": "",
+          "line": 105,
+          "column": 14,
+          "src": "srcs/i18n.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 105,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bind_Text_Domain",
+                      "href": "docs/i18n___spec.html#L105C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Domain_Name",
+                      "href": "docs/i18n___spec.html#L105C32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dirname",
+                      "href": "docs/i18n___spec.html#L105C54"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The Bind_Text_Domain function can be used to specify the directory which\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "contains the message catalogs for domain Domain_Name for the different\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "languages. To be correct, this is the directory where the hierarchy of\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "directories is expected.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "The Dirname string ought to be an absolute pathname.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Domain_Name",
+              "line": 105,
+              "column": 32,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dirname",
+              "line": 105,
+              "column": 54,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Bind_Text_Domain_Codeset",
+          "qualifier": "",
+          "line": 116,
+          "column": 14,
+          "src": "srcs/i18n.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 116,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bind_Text_Domain_Codeset",
+                      "href": "docs/i18n___spec.html#L116C14"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Domain_Name",
+                      "href": "docs/i18n___spec.html#L116C40"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Codeset",
+                      "href": "docs/i18n___spec.html#L116C62"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The Bind_Text_Domain_Codeset function can be used to specify the output\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "character set for message catalogs for domain Domain_Name. The Codeset\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "argument must be a valid codeset name which can be used for the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "'iconv_open' function from 'libc' library.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Domain_Name",
+              "line": 116,
+              "column": 40,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Codeset",
+              "line": 116,
+              "column": 62,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Dcgettext",
+          "qualifier": "",
+          "line": 54,
           "column": 13,
           "src": "srcs/i18n.ads.html",
           "summary": [
@@ -305,7 +511,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -325,14 +531,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Dgettext",
-                      "href": "docs/i18n.html#L46C13"
+                      "text": "Dcgettext",
+                      "href": "docs/i18n___spec.html#L54C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -348,7 +554,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Domain",
-                      "href": "docs/i18n.html#L47C7"
+                      "href": "docs/i18n___spec.html#L55C7"
                     },
                     {
                       "kind": "span",
@@ -384,7 +590,694 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Msg",
-                      "href": "docs/i18n.html#L47C24"
+                      "href": "docs/i18n___spec.html#L55C24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Category",
+                      "href": "docs/i18n___spec.html#L55C38"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Locale_Category",
+                      "href": "docs/l10n___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The Dcgettext adds another argument to those which Dgettext takes. This\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "argument Category specifies the last piece of information needed to\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "localize the message catalog. I.e., the domain name and the locale\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "category exactly specify which message catalog has to be used.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Look up Msg in the Domain message catalog for the Category locale.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Domain",
+              "line": 55,
+              "column": 7,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Msg",
+              "line": 55,
+              "column": 24,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Category",
+              "line": 55,
+              "column": 38,
+              "type": {
+                "label": "L10n.Locale_Category",
+                "docHref": "docs/l10n___spec.html#L35C9"
+              },
+              "description": [
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
+        },
+        {
+          "label": "Dcngettext",
+          "qualifier": "",
+          "line": 82,
+          "column": 13,
+          "src": "srcs/i18n.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 82,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dcngettext",
+                      "href": "docs/i18n___spec.html#L82C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 83,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Domain",
+                      "href": "docs/i18n___spec.html#L83C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 84,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Msg1",
+                      "href": "docs/i18n___spec.html#L84C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 85,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Msg2",
+                      "href": "docs/i18n___spec.html#L85C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 86,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "N",
+                      "href": "docs/i18n___spec.html#L86C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "unsigned_long"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 87,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Category",
+                      "href": "docs/i18n___spec.html#L87C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Locale_Category",
+                      "href": "docs/l10n___spec.html#L35C9"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "The Dcngettext is similar to the Dcgettext function in the way the\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "message catalog is selected. The difference is that it takes two extra\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "parameter to provide the correct plural form. These two parameters are\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "handled in the same way Ngettext handles them.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Domain",
+              "line": 83,
+              "column": 7,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Msg1",
+              "line": 84,
+              "column": 7,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Msg2",
+              "line": 85,
+              "column": 7,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "N",
+              "line": 86,
+              "column": 7,
+              "type": {
+                "label": "unsigned_long"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Category",
+              "line": 87,
+              "column": 7,
+              "type": {
+                "label": "L10n.Locale_Category",
+                "docHref": "docs/l10n___spec.html#L35C9"
+              },
+              "description": [
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
+        },
+        {
+          "label": "Default_Text_Domain",
+          "qualifier": "",
+          "line": 102,
+          "column": 13,
+          "src": "srcs/i18n.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 102,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Default_Text_Domain",
+                      "href": "docs/i18n___spec.html#L102C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Return the currently selected default domain.\n"
+                }
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
+        },
+        {
+          "label": "Dgettext",
+          "qualifier": "",
+          "line": 46,
+          "column": 13,
+          "src": "srcs/i18n.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 46,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dgettext",
+                      "href": "docs/i18n___spec.html#L46C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Domain",
+                      "href": "docs/i18n___spec.html#L46C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Msg",
+                      "href": "docs/i18n___spec.html#L46C40"
                     },
                     {
                       "kind": "span",
@@ -473,8 +1366,8 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Domain",
-              "line": 47,
-              "column": 7,
+              "line": 46,
+              "column": 23,
               "type": {
                 "label": "String"
               },
@@ -483,19 +1376,24 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Msg",
-              "line": 47,
-              "column": 24,
+              "line": 46,
+              "column": 40,
               "type": {
                 "label": "String"
               },
               "description": [
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
         },
         {
-          "label": "Dcgettext",
-          "line": 55,
+          "label": "Dngettext",
+          "qualifier": "",
+          "line": 72,
           "column": 13,
           "src": "srcs/i18n.ads.html",
           "summary": [
@@ -506,7 +1404,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -526,14 +1424,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Dcgettext",
-                      "href": "docs/i18n.html#L55C13"
+                      "text": "Dngettext",
+                      "href": "docs/i18n___spec.html#L72C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -549,7 +1447,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Domain",
-                      "href": "docs/i18n.html#L56C7"
+                      "href": "docs/i18n___spec.html#L73C7"
                     },
                     {
                       "kind": "span",
@@ -575,22 +1473,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 74,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Msg",
-                      "href": "docs/i18n.html#L56C24"
+                      "text": "Msg1",
+                      "href": "docs/i18n___spec.html#L74C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -611,22 +1515,28 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 75,
+                  "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Category",
-                      "href": "docs/i18n.html#L56C38"
+                      "text": "Msg2",
+                      "href": "docs/i18n___spec.html#L75C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -641,8 +1551,49 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Locale_Category",
-                      "href": "docs/l10n.html#L35C9"
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 76,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "N",
+                      "href": "docs/i18n___spec.html#L76C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "unsigned_long"
                     },
                     {
                       "kind": "span",
@@ -683,23 +1634,19 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "span",
-                  "text": "The Dcgettext adds another argument to those which Dgettext takes. This\n"
+                  "text": "The Dngettext is similar to the Dgettext function in the way the message\n"
                 },
                 {
                   "kind": "span",
-                  "text": "argument Category specifies the last piece of information needed to\n"
+                  "text": "catalog is selected. The difference is that it takes two extra parameter\n"
                 },
                 {
                   "kind": "span",
-                  "text": "localize the message catalog. I.e., the domain name and the locale\n"
+                  "text": "to provide the correct plural form. These two parameters are handled in\n"
                 },
                 {
                   "kind": "span",
-                  "text": "category exactly specify which message catalog has to be used.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Look up Msg in the Domain message catalog for the Category locale.\n"
+                  "text": "the same way Ngettext handles them.\n"
                 }
               ]
             }
@@ -707,7 +1654,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Domain",
-              "line": 56,
+              "line": 73,
               "column": 7,
               "type": {
                 "label": "String"
@@ -716,9 +1663,9 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Msg",
-              "line": 56,
-              "column": 24,
+              "label": "Msg1",
+              "line": 74,
+              "column": 7,
               "type": {
                 "label": "String"
               },
@@ -726,21 +1673,35 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Category",
-              "line": 56,
-              "column": 38,
+              "label": "Msg2",
+              "line": 75,
+              "column": 7,
               "type": {
-                "label": "L10n.Locale_Category",
-                "docHref": "docs/l10n.html#L35C9"
+                "label": "String"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "N",
+              "line": 76,
+              "column": 7,
+              "type": {
+                "label": "unsigned_long"
               },
               "description": [
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
         },
         {
-          "label": "Ngettext",
-          "line": 63,
+          "label": "Gettext",
+          "qualifier": "",
+          "line": 38,
           "column": 13,
           "src": "srcs/i18n.ads.html",
           "summary": [
@@ -751,7 +1712,149 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 38,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Gettext",
+                      "href": "docs/i18n___spec.html#L38C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Msg",
+                      "href": "docs/i18n___spec.html#L38C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Searches the currently selected message catalogs for a string which is\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "equal to Msg. If there is such a string available it is returned.\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Otherwise the argument string Msg is returned.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Msg",
+              "line": 38,
+              "column": 22,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
+        },
+        {
+          "label": "Ngettext",
+          "qualifier": "",
+          "line": 62,
+          "column": 13,
+          "src": "srcs/i18n.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -772,13 +1875,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Ngettext",
-                      "href": "docs/i18n.html#L63C13"
+                      "href": "docs/i18n___spec.html#L62C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -794,7 +1897,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Msg1",
-                      "href": "docs/i18n.html#L64C7"
+                      "href": "docs/i18n___spec.html#L63C7"
                     },
                     {
                       "kind": "span",
@@ -830,7 +1933,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Msg2",
-                      "href": "docs/i18n.html#L64C22"
+                      "href": "docs/i18n___spec.html#L63C22"
                     },
                     {
                       "kind": "span",
@@ -866,7 +1969,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "N",
-                      "href": "docs/i18n.html#L64C37"
+                      "href": "docs/i18n___spec.html#L63C37"
                     },
                     {
                       "kind": "span",
@@ -959,7 +2062,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Msg1",
-              "line": 64,
+              "line": 63,
               "column": 7,
               "type": {
                 "label": "String"
@@ -969,7 +2072,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Msg2",
-              "line": 64,
+              "line": 63,
               "column": 22,
               "type": {
                 "label": "String"
@@ -979,7 +2082,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "N",
-              "line": 64,
+              "line": 63,
               "column": 37,
               "type": {
                 "label": "unsigned_long"
@@ -987,671 +2090,16 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ]
-        },
-        {
-          "label": "Dngettext",
-          "line": 73,
-          "column": 13,
-          "src": "srcs/i18n.ads.html",
-          "summary": [
           ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 73,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Dngettext",
-                      "href": "docs/i18n.html#L73C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 74,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Domain",
-                      "href": "docs/i18n.html#L74C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 75,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Msg1",
-                      "href": "docs/i18n.html#L75C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 76,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Msg2",
-                      "href": "docs/i18n.html#L76C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 77,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "N",
-                      "href": "docs/i18n.html#L77C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "unsigned_long"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "The Dngettext is similar to the Dgettext function in the way the message\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "catalog is selected. The difference is that it takes two extra parameter\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "to provide the correct plural form. These two parameters are handled in\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "the same way Ngettext handles them.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Domain",
-              "line": 74,
-              "column": 7,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Msg1",
-              "line": 75,
-              "column": 7,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Msg2",
-              "line": 76,
-              "column": 7,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "N",
-              "line": 77,
-              "column": 7,
-              "type": {
-                "label": "unsigned_long"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Dcngettext",
-          "line": 83,
-          "column": 13,
-          "src": "srcs/i18n.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 83,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Dcngettext",
-                      "href": "docs/i18n.html#L83C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 84,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Domain",
-                      "href": "docs/i18n.html#L84C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 85,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Msg1",
-                      "href": "docs/i18n.html#L85C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 86,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Msg2",
-                      "href": "docs/i18n.html#L86C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "     "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 87,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "N",
-                      "href": "docs/i18n.html#L87C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "        "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "unsigned_long"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 88,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Category",
-                      "href": "docs/i18n.html#L88C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Locale_Category",
-                      "href": "docs/l10n.html#L35C9"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "The Dcngettext is similar to the Dcgettext function in the way the\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "message catalog is selected. The difference is that it takes two extra\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "parameter to provide the correct plural form. These two parameters are\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "handled in the same way Ngettext handles them.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Domain",
-              "line": 84,
-              "column": 7,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Msg1",
-              "line": 85,
-              "column": 7,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Msg2",
-              "line": 86,
-              "column": 7,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "N",
-              "line": 87,
-              "column": 7,
-              "type": {
-                "label": "unsigned_long"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Category",
-              "line": 88,
-              "column": 7,
-              "type": {
-                "label": "L10n.Locale_Category",
-                "docHref": "docs/l10n.html#L35C9"
-              },
-              "description": [
-              ]
-            }
-          ]
+          "returns": {
+            "description": [
+            ]
+          }
         },
         {
           "label": "Text_Domain",
-          "line": 94,
+          "qualifier": "",
+          "line": 93,
           "column": 14,
           "src": "srcs/i18n.ads.html",
           "summary": [
@@ -1662,7 +2110,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 94,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -1683,7 +2131,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Text_Domain",
-                      "href": "docs/i18n.html#L94C14"
+                      "href": "docs/i18n___spec.html#L93C14"
                     },
                     {
                       "kind": "span",
@@ -1699,7 +2147,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Domain_Name",
-                      "href": "docs/i18n.html#L94C27"
+                      "href": "docs/i18n___spec.html#L93C27"
                     },
                     {
                       "kind": "span",
@@ -1773,7 +2221,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Domain_Name",
-              "line": 94,
+              "line": 93,
               "column": 27,
               "type": {
                 "label": "String"
@@ -1784,555 +2232,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Default_Text_Domain",
-          "line": 103,
-          "column": 13,
-          "src": "srcs/i18n.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 103,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Default_Text_Domain",
-                      "href": "docs/i18n.html#L103C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Return the currently selected default domain.\n"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Bind_Text_Domain",
-          "line": 106,
-          "column": 14,
-          "src": "srcs/i18n.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 106,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Bind_Text_Domain",
-                      "href": "docs/i18n.html#L106C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Domain_Name",
-                      "href": "docs/i18n.html#L106C32"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Dirname",
-                      "href": "docs/i18n.html#L106C54"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "The Bind_Text_Domain function can be used to specify the directory which\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "contains the message catalogs for domain Domain_Name for the different\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "languages. To be correct, this is the directory where the hierarchy of\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "directories is expected.\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "The Dirname string ought to be an absolute pathname.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Domain_Name",
-              "line": 106,
-              "column": 32,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Dirname",
-              "line": 106,
-              "column": 54,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Text_Domain_Directory",
-          "line": 113,
-          "column": 13,
-          "src": "srcs/i18n.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 113,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Text_Domain_Directory",
-                      "href": "docs/i18n.html#L113C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Domain_Name",
-                      "href": "docs/i18n.html#L113C36"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "Returns the currently selected directory for the domain with the name\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "Domain_Name.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Domain_Name",
-              "line": 113,
-              "column": 36,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Bind_Text_Domain_Codeset",
-          "line": 117,
-          "column": 14,
-          "src": "srcs/i18n.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 117,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Bind_Text_Domain_Codeset",
-                      "href": "docs/i18n.html#L117C14"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Domain_Name",
-                      "href": "docs/i18n.html#L117C40"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Codeset",
-                      "href": "docs/i18n.html#L117C62"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "String"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "kind": "paragraph",
-              "children": [
-                {
-                  "kind": "span",
-                  "text": "The Bind_Text_Domain_Codeset function can be used to specify the output\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "character set for message catalogs for domain Domain_Name. The Codeset\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "argument must be a valid codeset name which can be used for the\n"
-                },
-                {
-                  "kind": "span",
-                  "text": "'iconv_open' function from 'libc' library.\n"
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Domain_Name",
-              "line": 117,
-              "column": 40,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Codeset",
-              "line": 117,
-              "column": 62,
-              "type": {
-                "label": "String"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
           "label": "Text_Domain_Codeset",
-          "line": 123,
+          "qualifier": "",
+          "line": 122,
           "column": 13,
           "src": "srcs/i18n.ads.html",
           "summary": [
@@ -2343,7 +2245,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 122,
                   "children": [
                     {
                       "kind": "span",
@@ -2364,7 +2266,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Text_Domain_Codeset",
-                      "href": "docs/i18n.html#L123C13"
+                      "href": "docs/i18n___spec.html#L122C13"
                     },
                     {
                       "kind": "span",
@@ -2380,7 +2282,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Domain_Name",
-                      "href": "docs/i18n.html#L123C34"
+                      "href": "docs/i18n___spec.html#L122C34"
                     },
                     {
                       "kind": "span",
@@ -2453,7 +2355,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Domain_Name",
-              "line": 123,
+              "line": 122,
               "column": 34,
               "type": {
                 "label": "String"
@@ -2461,7 +2363,149 @@ GNATdoc.Documentation = {
               "description": [
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
+        },
+        {
+          "label": "Text_Domain_Directory",
+          "qualifier": "",
+          "line": 112,
+          "column": 13,
+          "src": "srcs/i18n.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 112,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Text_Domain_Directory",
+                      "href": "docs/i18n___spec.html#L112C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Domain_Name",
+                      "href": "docs/i18n___spec.html#L112C36"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "String"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "children": [
+                {
+                  "kind": "span",
+                  "text": "Returns the currently selected directory for the domain with the name\n"
+                },
+                {
+                  "kind": "span",
+                  "text": "Domain_Name.\n"
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Domain_Name",
+              "line": 112,
+              "column": 36,
+              "type": {
+                "label": "String"
+              },
+              "description": [
+              ]
+            }
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
         }
       ],
       "label": "Subprograms"

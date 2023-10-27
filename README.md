@@ -9,7 +9,7 @@ The library does not require special installation. The library's source tree
 can be put in a directory and used as-is.
 
 For users of GNAT compiler library has project file `adanls.gpr`, which can be
-used in your project and in the GNAT Programming Studio (GPS).
+used in your project and in the GNAT Studio.
 
 Example of use
 --------------

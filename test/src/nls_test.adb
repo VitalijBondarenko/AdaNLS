@@ -101,8 +101,8 @@ begin
    Bind_Text_Domain ("nls_test", "");
 
    --  POSIX format locale name string
-   --  Set_Locale (Locale => "C");
-   --  Set_Locale (Locale => "uk_UA.UTF-8");
+   Set_Locale (Locale => "C");
+   Set_Locale (Locale => "uk_UA.UTF-8");
 
    --  Windows format locale name string
    --  Set_Locale (Locale => "Ukrainian_Ukraine.1251");

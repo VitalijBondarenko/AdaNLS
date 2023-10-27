@@ -157,7 +157,7 @@ package L10n.Localeinfo is
       --  2 The sign string follows the quantity and Currency_Symbol.
       --  3 The sign string immediately precedes the Currency_Symbol.
       --  4 The sign string immediately follows the Currency_Symbol.
---
+
       Int_P_Cs_Precedes  : Natural;
       --  Set to 1 or 0 if the Int_Curr_Symbol respectively precedes or
       --  succeeds the value for a non-negative internationally formatted

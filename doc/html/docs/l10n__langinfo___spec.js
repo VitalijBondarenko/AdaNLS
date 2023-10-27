@@ -1,5 +1,6 @@
 GNATdoc.Documentation = {
   "label": "L10n.Langinfo",
+  "qualifier": "",
   "summary": [
   ],
   "description": [
@@ -9,7 +10,8 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "Locale_Item",
-          "line": 8,
+          "qualifier": "",
+          "line": 35,
           "column": 9,
           "src": "srcs/l10n-langinfo.ads.html",
           "summary": [
@@ -20,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 8,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -41,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Locale_Item",
-                      "href": "docs/l10n.langinfo.html#L8C9"
+                      "href": "docs/l10n__langinfo___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -57,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -73,477 +75,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "CODESET",
-                      "href": "docs/l10n.langinfo.html#L9C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 10,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  String with the name of the coded character set used in the selected"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 11,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locale."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 12,
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 13,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "RADIXCHAR",
-                      "href": "docs/l10n.langinfo.html#L13C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 14,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Radix character (decimal point)."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 15,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  The same as the value returned by Localeconv in the Decimal_Point"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 16,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  element of the Lconv_Record."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 17,
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 18,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "THOUSEP",
-                      "href": "docs/l10n.langinfo.html#L18C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 19,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Separator for thousands."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 20,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  The same as the value returned by Localeconv in the Thousands_Sep"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 21,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  element of the Lconv_Record."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 22,
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 23,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABDAY_1",
-                      "href": "docs/l10n.langinfo.html#L23C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 24,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABDAY_2",
-                      "href": "docs/l10n.langinfo.html#L24C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 25,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABDAY_3",
-                      "href": "docs/l10n.langinfo.html#L25C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 26,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABDAY_4",
-                      "href": "docs/l10n.langinfo.html#L26C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 27,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABDAY_5",
-                      "href": "docs/l10n.langinfo.html#L27C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 28,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABDAY_6",
-                      "href": "docs/l10n.langinfo.html#L28C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 29,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABDAY_7",
-                      "href": "docs/l10n.langinfo.html#L29C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 30,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  ABDAY_{1-7} is abbreviated weekday names."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 31,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  ABDAY_1 corresponds to Sunday."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 32,
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 33,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DAY_1",
-                      "href": "docs/l10n.langinfo.html#L33C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 34,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DAY_2",
-                      "href": "docs/l10n.langinfo.html#L34C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 35,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DAY_3",
-                      "href": "docs/l10n.langinfo.html#L35C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 36,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DAY_4",
-                      "href": "docs/l10n.langinfo.html#L36C7"
+                      "href": "docs/l10n__langinfo___spec.html#L36C7"
                     },
                     {
                       "kind": "span",
@@ -563,14 +95,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DAY_5",
-                      "href": "docs/l10n.langinfo.html#L37C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  String with the name of the coded character set used in the selected"
                     }
                   ]
                 },
@@ -585,14 +111,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DAY_6",
-                      "href": "docs/l10n.langinfo.html#L38C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  locale."
                     }
                   ]
                 },
@@ -600,22 +120,6 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 39,
                   "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DAY_7",
-                      "href": "docs/l10n.langinfo.html#L39C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
                   ]
                 },
                 {
@@ -629,8 +133,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  DAY_{1-7} is full weekday names."
+                      "cssClass": "identifier",
+                      "text": "RADIXCHAR",
+                      "href": "docs/l10n__langinfo___spec.html#L40C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -646,7 +156,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  DAY_1 corresponds to Sunday."
+                      "text": "--  Radix character (decimal point)."
                     }
                   ]
                 },
@@ -654,6 +164,16 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 42,
                   "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  The same as the value returned by Localeconv in the Decimal_Point"
+                    }
                   ]
                 },
                 {
@@ -667,14 +187,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABMON_1",
-                      "href": "docs/l10n.langinfo.html#L43C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  element of the Lconv_Record."
                     }
                   ]
                 },
@@ -682,22 +196,6 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 44,
                   "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABMON_2",
-                      "href": "docs/l10n.langinfo.html#L44C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
                   ]
                 },
                 {
@@ -712,8 +210,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ABMON_3",
-                      "href": "docs/l10n.langinfo.html#L45C7"
+                      "text": "THOUSEP",
+                      "href": "docs/l10n__langinfo___spec.html#L45C7"
                     },
                     {
                       "kind": "span",
@@ -733,14 +231,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABMON_4",
-                      "href": "docs/l10n.langinfo.html#L46C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  Separator for thousands."
                     }
                   ]
                 },
@@ -755,14 +247,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABMON_5",
-                      "href": "docs/l10n.langinfo.html#L47C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  The same as the value returned by Localeconv in the Thousands_Sep"
                     }
                   ]
                 },
@@ -777,14 +263,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABMON_6",
-                      "href": "docs/l10n.langinfo.html#L48C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  element of the Lconv_Record."
                     }
                   ]
                 },
@@ -792,22 +272,6 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 49,
                   "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ABMON_7",
-                      "href": "docs/l10n.langinfo.html#L49C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
                   ]
                 },
                 {
@@ -822,8 +286,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ABMON_8",
-                      "href": "docs/l10n.langinfo.html#L50C7"
+                      "text": "ABDAY_1",
+                      "href": "docs/l10n__langinfo___spec.html#L50C7"
                     },
                     {
                       "kind": "span",
@@ -844,8 +308,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ABMON_9",
-                      "href": "docs/l10n.langinfo.html#L51C7"
+                      "text": "ABDAY_2",
+                      "href": "docs/l10n__langinfo___spec.html#L51C7"
                     },
                     {
                       "kind": "span",
@@ -866,8 +330,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ABMON_10",
-                      "href": "docs/l10n.langinfo.html#L52C7"
+                      "text": "ABDAY_3",
+                      "href": "docs/l10n__langinfo___spec.html#L52C7"
                     },
                     {
                       "kind": "span",
@@ -888,8 +352,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ABMON_11",
-                      "href": "docs/l10n.langinfo.html#L53C7"
+                      "text": "ABDAY_4",
+                      "href": "docs/l10n__langinfo___spec.html#L53C7"
                     },
                     {
                       "kind": "span",
@@ -910,8 +374,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ABMON_12",
-                      "href": "docs/l10n.langinfo.html#L54C7"
+                      "text": "ABDAY_5",
+                      "href": "docs/l10n__langinfo___spec.html#L54C7"
                     },
                     {
                       "kind": "span",
@@ -931,8 +395,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  ABMON_{1-12} is abbreviated month names."
+                      "cssClass": "identifier",
+                      "text": "ABDAY_6",
+                      "href": "docs/l10n__langinfo___spec.html#L55C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -947,8 +417,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  ABMON_1 corresponds to January."
+                      "cssClass": "identifier",
+                      "text": "ABDAY_7",
+                      "href": "docs/l10n__langinfo___spec.html#L56C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -956,6 +432,16 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 57,
                   "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  ABDAY_{1-7} is abbreviated weekday names."
+                    }
                   ]
                 },
                 {
@@ -969,14 +455,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "MON_1",
-                      "href": "docs/l10n.langinfo.html#L58C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  ABDAY_1 corresponds to Sunday."
                     }
                   ]
                 },
@@ -984,22 +464,6 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 59,
                   "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "MON_2",
-                      "href": "docs/l10n.langinfo.html#L59C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
                   ]
                 },
                 {
@@ -1014,8 +478,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "MON_3",
-                      "href": "docs/l10n.langinfo.html#L60C7"
+                      "text": "DAY_1",
+                      "href": "docs/l10n__langinfo___spec.html#L60C7"
                     },
                     {
                       "kind": "span",
@@ -1036,8 +500,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "MON_4",
-                      "href": "docs/l10n.langinfo.html#L61C7"
+                      "text": "DAY_2",
+                      "href": "docs/l10n__langinfo___spec.html#L61C7"
                     },
                     {
                       "kind": "span",
@@ -1058,8 +522,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "MON_5",
-                      "href": "docs/l10n.langinfo.html#L62C7"
+                      "text": "DAY_3",
+                      "href": "docs/l10n__langinfo___spec.html#L62C7"
                     },
                     {
                       "kind": "span",
@@ -1080,8 +544,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "MON_6",
-                      "href": "docs/l10n.langinfo.html#L63C7"
+                      "text": "DAY_4",
+                      "href": "docs/l10n__langinfo___spec.html#L63C7"
                     },
                     {
                       "kind": "span",
@@ -1102,8 +566,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "MON_7",
-                      "href": "docs/l10n.langinfo.html#L64C7"
+                      "text": "DAY_5",
+                      "href": "docs/l10n__langinfo___spec.html#L64C7"
                     },
                     {
                       "kind": "span",
@@ -1124,8 +588,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "MON_8",
-                      "href": "docs/l10n.langinfo.html#L65C7"
+                      "text": "DAY_6",
+                      "href": "docs/l10n__langinfo___spec.html#L65C7"
                     },
                     {
                       "kind": "span",
@@ -1146,8 +610,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "MON_9",
-                      "href": "docs/l10n.langinfo.html#L66C7"
+                      "text": "DAY_7",
+                      "href": "docs/l10n__langinfo___spec.html#L66C7"
                     },
                     {
                       "kind": "span",
@@ -1167,14 +631,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "MON_10",
-                      "href": "docs/l10n.langinfo.html#L67C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  DAY_{1-7} is full weekday names."
                     }
                   ]
                 },
@@ -1189,14 +647,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "MON_11",
-                      "href": "docs/l10n.langinfo.html#L68C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  DAY_1 corresponds to Sunday."
                     }
                   ]
                 },
@@ -1204,22 +656,6 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 69,
                   "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "MON_12",
-                      "href": "docs/l10n.langinfo.html#L69C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    }
                   ]
                 },
                 {
@@ -1233,8 +669,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  MON_{1-12} is full month names."
+                      "cssClass": "identifier",
+                      "text": "ABMON_1",
+                      "href": "docs/l10n__langinfo___spec.html#L70C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1249,8 +691,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  MON_1 corresponds to January."
+                      "cssClass": "identifier",
+                      "text": "ABMON_2",
+                      "href": "docs/l10n__langinfo___spec.html#L71C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1258,6 +706,22 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 72,
                   "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ABMON_3",
+                      "href": "docs/l10n__langinfo___spec.html#L72C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
                   ]
                 },
                 {
@@ -1272,8 +736,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "AM_STR",
-                      "href": "docs/l10n.langinfo.html#L73C7"
+                      "text": "ABMON_4",
+                      "href": "docs/l10n__langinfo___spec.html#L73C7"
                     },
                     {
                       "kind": "span",
@@ -1294,8 +758,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "PM_STR",
-                      "href": "docs/l10n.langinfo.html#L74C7"
+                      "text": "ABMON_5",
+                      "href": "docs/l10n__langinfo___spec.html#L74C7"
                     },
                     {
                       "kind": "span",
@@ -1315,8 +779,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Strings with appropriate ante-meridiem/post-meridiem affix."
+                      "cssClass": "identifier",
+                      "text": "ABMON_6",
+                      "href": "docs/l10n__langinfo___spec.html#L75C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1331,8 +801,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  NOTE that in locales which do not use this time representation these"
+                      "cssClass": "identifier",
+                      "text": "ABMON_7",
+                      "href": "docs/l10n__langinfo___spec.html#L76C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1347,8 +823,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  strings might be empty, in which case the am/pm format cannot be"
+                      "cssClass": "identifier",
+                      "text": "ABMON_8",
+                      "href": "docs/l10n__langinfo___spec.html#L77C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1363,8 +845,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  used at all."
+                      "cssClass": "identifier",
+                      "text": "ABMON_9",
+                      "href": "docs/l10n__langinfo___spec.html#L78C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1372,6 +860,22 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 79,
                   "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ABMON_10",
+                      "href": "docs/l10n__langinfo___spec.html#L79C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
                   ]
                 },
                 {
@@ -1386,8 +890,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "D_T_FMT",
-                      "href": "docs/l10n.langinfo.html#L80C7"
+                      "text": "ABMON_11",
+                      "href": "docs/l10n__langinfo___spec.html#L80C7"
                     },
                     {
                       "kind": "span",
@@ -1407,8 +911,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Value can be used as a format string for represent time and date in"
+                      "cssClass": "identifier",
+                      "text": "ABMON_12",
+                      "href": "docs/l10n__langinfo___spec.html#L81C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1424,19 +934,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  a locale-specific way."
+                      "text": "--  ABMON_{1-12} is abbreviated month names."
                     }
                   ]
                 },
                 {
                   "kind": "line",
                   "number": 83,
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -1445,15 +949,15 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "D_FMT",
-                      "href": "docs/l10n.langinfo.html#L84C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  ABMON_1 corresponds to January."
                     }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 84,
+                  "children": [
                   ]
                 },
                 {
@@ -1467,8 +971,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Value can be used as a format string for represent date in a"
+                      "cssClass": "identifier",
+                      "text": "MON_1",
+                      "href": "docs/l10n__langinfo___spec.html#L85C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1483,8 +993,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locale-specific way."
+                      "cssClass": "identifier",
+                      "text": "MON_2",
+                      "href": "docs/l10n__langinfo___spec.html#L86C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1492,6 +1008,22 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 87,
                   "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "MON_3",
+                      "href": "docs/l10n__langinfo___spec.html#L87C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
                   ]
                 },
                 {
@@ -1506,8 +1038,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "T_FMT",
-                      "href": "docs/l10n.langinfo.html#L88C7"
+                      "text": "MON_4",
+                      "href": "docs/l10n__langinfo___spec.html#L88C7"
                     },
                     {
                       "kind": "span",
@@ -1527,8 +1059,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Value can be used as a format string for represent time in a"
+                      "cssClass": "identifier",
+                      "text": "MON_5",
+                      "href": "docs/l10n__langinfo___spec.html#L89C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1543,8 +1081,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locale-specific way."
+                      "cssClass": "identifier",
+                      "text": "MON_6",
+                      "href": "docs/l10n__langinfo___spec.html#L90C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1552,6 +1096,22 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 91,
                   "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "MON_7",
+                      "href": "docs/l10n__langinfo___spec.html#L91C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
                   ]
                 },
                 {
@@ -1566,8 +1126,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "T_FMT_AMPM",
-                      "href": "docs/l10n.langinfo.html#L92C7"
+                      "text": "MON_8",
+                      "href": "docs/l10n__langinfo___spec.html#L92C7"
                     },
                     {
                       "kind": "span",
@@ -1587,8 +1147,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Value can be used as a format string for represent time in the"
+                      "cssClass": "identifier",
+                      "text": "MON_9",
+                      "href": "docs/l10n__langinfo___spec.html#L93C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1603,8 +1169,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  12-hour clock format with AM_STR and PM_STR."
+                      "cssClass": "identifier",
+                      "text": "MON_10",
+                      "href": "docs/l10n__langinfo___spec.html#L94C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1619,8 +1191,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  NOTE that if the am/pm format does not make any sense for the"
+                      "cssClass": "identifier",
+                      "text": "MON_11",
+                      "href": "docs/l10n__langinfo___spec.html#L95C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1635,8 +1213,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  selected locale, the return value might be the same as the one for"
+                      "cssClass": "identifier",
+                      "text": "MON_12",
+                      "href": "docs/l10n__langinfo___spec.html#L96C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1652,19 +1236,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  T_FMT."
+                      "text": "--  MON_{1-12} is full month names."
                     }
                   ]
                 },
                 {
                   "kind": "line",
                   "number": 98,
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -1673,15 +1251,15 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERA",
-                      "href": "docs/l10n.langinfo.html#L99C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  MON_1 corresponds to January."
                     }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 99,
+                  "children": [
                   ]
                 },
                 {
@@ -1695,8 +1273,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Value represents the era used in the current locale. Most locales do"
+                      "cssClass": "identifier",
+                      "text": "AM_STR",
+                      "href": "docs/l10n__langinfo___spec.html#L100C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1711,8 +1295,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  not define this value. Normally it should not be necessary to use"
+                      "cssClass": "identifier",
+                      "text": "PM_STR",
+                      "href": "docs/l10n__langinfo___spec.html#L101C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1728,7 +1318,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  this value directly."
+                      "text": "--  Strings with appropriate ante-meridiem/post-meridiem affix."
                     }
                   ]
                 },
@@ -1736,6 +1326,16 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 103,
                   "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  NOTE that in locales which do not use this time representation these"
+                    }
                   ]
                 },
                 {
@@ -1749,14 +1349,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERA_D_FMT",
-                      "href": "docs/l10n.langinfo.html#L104C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  strings might be empty, in which case the am/pm format cannot be"
                     }
                   ]
                 },
@@ -1772,13 +1366,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Value can be used as a format string for represent a date in a"
+                      "text": "--  used at all."
                     }
                   ]
                 },
                 {
                   "kind": "line",
                   "number": 106,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 107,
                   "children": [
                     {
                       "kind": "span",
@@ -1787,15 +1387,15 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  locale-specific era-based way."
+                      "cssClass": "identifier",
+                      "text": "D_T_FMT",
+                      "href": "docs/l10n__langinfo___spec.html#L107C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 107,
-                  "children": [
                   ]
                 },
                 {
@@ -1809,14 +1409,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ALT_DIGITS",
-                      "href": "docs/l10n.langinfo.html#L108C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  Value can be used as a format string for represent time and date in"
                     }
                   ]
                 },
@@ -1832,7 +1426,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Value is a representation of up to 100 values used to represent the"
+                      "text": "--  a locale-specific way."
                     }
                   ]
                 },
@@ -1840,16 +1434,6 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 110,
                   "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  values 0 to 99. As for ERA this value is not intended to be used"
-                    }
                   ]
                 },
                 {
@@ -1863,8 +1447,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  directly."
+                      "cssClass": "identifier",
+                      "text": "D_FMT",
+                      "href": "docs/l10n__langinfo___spec.html#L111C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1872,6 +1462,16 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 112,
                   "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Value can be used as a format string for represent date in a"
+                    }
                   ]
                 },
                 {
@@ -1885,14 +1485,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ERA_D_T_FMT",
-                      "href": "docs/l10n.langinfo.html#L113C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  locale-specific way."
                     }
                   ]
                 },
@@ -1900,16 +1494,6 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 114,
                   "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  Value can be used as a format string for represent dates and times in"
-                    }
                   ]
                 },
                 {
@@ -1923,31 +1507,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  a locale-specific era-based way."
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 116,
-                  "children": [
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 117,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "ERA_T_FMT",
-                      "href": "docs/l10n.langinfo.html#L117C7"
+                      "text": "T_FMT",
+                      "href": "docs/l10n__langinfo___spec.html#L115C7"
                     },
                     {
                       "kind": "span",
@@ -1958,7 +1520,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 116,
                   "children": [
                     {
                       "kind": "span",
@@ -1974,7 +1536,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 117,
                   "children": [
                     {
                       "kind": "span",
@@ -1984,7 +1546,35 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  locale-specific era-based way."
+                      "text": "--  locale-specific way."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 118,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 119,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "T_FMT_AMPM",
+                      "href": "docs/l10n__langinfo___spec.html#L119C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -1992,6 +1582,16 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 120,
                   "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Value can be used as a format string for represent time in the"
+                    }
                   ]
                 },
                 {
@@ -2005,14 +1605,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "CRNCYSTR",
-                      "href": "docs/l10n.langinfo.html#L121C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  12-hour clock format with AM_STR and PM_STR."
                     }
                   ]
                 },
@@ -2028,7 +1622,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Local currency symbol, preceded by '-' if the symbol should appear"
+                      "text": "--  NOTE that if the am/pm format does not make any sense for the"
                     }
                   ]
                 },
@@ -2044,7 +1638,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  before the value, '+' if the symbol should appear after the value,"
+                      "text": "--  selected locale, the return value might be the same as the one for"
                     }
                   ]
                 },
@@ -2060,7 +1654,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  or '.' if the symbol should replace the radix character. If the local"
+                      "text": "--  T_FMT."
                     }
                   ]
                 },
@@ -2068,16 +1662,6 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 125,
                   "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  currency symbol is the empty string, implementations may return the"
-                    }
                   ]
                 },
                 {
@@ -2091,8 +1675,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  empty string."
+                      "cssClass": "identifier",
+                      "text": "ERA",
+                      "href": "docs/l10n__langinfo___spec.html#L126C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
                   ]
                 },
@@ -2100,6 +1690,16 @@ GNATdoc.Documentation = {
                   "kind": "line",
                   "number": 127,
                   "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Value represents the era used in the current locale. Most locales do"
+                    }
                   ]
                 },
                 {
@@ -2113,14 +1713,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "YESEXPR",
-                      "href": "docs/l10n.langinfo.html#L128C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "comment",
+                      "text": "--  not define this value. Normally it should not be necessary to use"
                     }
                   ]
                 },
@@ -2136,13 +1730,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Regular expression which can be used to recognize a positive response"
+                      "text": "--  this value directly."
                     }
                   ]
                 },
                 {
                   "kind": "line",
                   "number": 130,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -2151,15 +1751,15 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "comment",
-                      "text": "--  to a yes/no question."
+                      "cssClass": "identifier",
+                      "text": "ERA_D_FMT",
+                      "href": "docs/l10n__langinfo___spec.html#L131C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
                     }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 131,
-                  "children": [
                   ]
                 },
                 {
@@ -2173,9 +1773,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "NOEXPR",
-                      "href": "docs/l10n.langinfo.html#L132C7"
+                      "cssClass": "comment",
+                      "text": "--  Value can be used as a format string for represent a date in a"
                     }
                   ]
                 },
@@ -2191,13 +1790,663 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "comment",
-                      "text": "--  Regular expression which can be used to recognize a negative response"
+                      "text": "--  locale-specific era-based way."
                     }
                   ]
                 },
                 {
                   "kind": "line",
                   "number": 134,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 135,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALT_DIGITS",
+                      "href": "docs/l10n__langinfo___spec.html#L135C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 136,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Value is a representation of up to 100 values used to represent the"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 137,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  values 0 to 99. As for ERA this value is not intended to be used"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 138,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  directly."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 139,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 140,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERA_D_T_FMT",
+                      "href": "docs/l10n__langinfo___spec.html#L140C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 141,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Value can be used as a format string for represent dates and times in"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 142,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  a locale-specific era-based way."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 143,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 144,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ERA_T_FMT",
+                      "href": "docs/l10n__langinfo___spec.html#L144C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 145,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Value can be used as a format string for represent time in a"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 146,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  locale-specific era-based way."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 147,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 148,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_1",
+                      "href": "docs/l10n__langinfo___spec.html#L148C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 149,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_2",
+                      "href": "docs/l10n__langinfo___spec.html#L149C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 150,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_3",
+                      "href": "docs/l10n__langinfo___spec.html#L150C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 151,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_4",
+                      "href": "docs/l10n__langinfo___spec.html#L151C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 152,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_5",
+                      "href": "docs/l10n__langinfo___spec.html#L152C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 153,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_6",
+                      "href": "docs/l10n__langinfo___spec.html#L153C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 154,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_7",
+                      "href": "docs/l10n__langinfo___spec.html#L154C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 155,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_8",
+                      "href": "docs/l10n__langinfo___spec.html#L155C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 156,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_9",
+                      "href": "docs/l10n__langinfo___spec.html#L156C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 157,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_10",
+                      "href": "docs/l10n__langinfo___spec.html#L157C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 158,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_11",
+                      "href": "docs/l10n__langinfo___spec.html#L158C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 159,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ALTMON_12",
+                      "href": "docs/l10n__langinfo___spec.html#L159C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 160,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Long month names, in the grammatical form used when the month"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 161,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  is named by itself. ALTMON_1 corresponds to January."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 162,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 163,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "CRNCYSTR",
+                      "href": "docs/l10n__langinfo___spec.html#L163C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 164,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Local currency symbol, preceded by '-' if the symbol should appear"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 165,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  before the value, '+' if the symbol should appear after the value,"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 166,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  or '.' if the symbol should replace the radix character. If the local"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 167,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  currency symbol is the empty string, implementations may return the"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 168,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  empty string."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 169,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 170,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "YESEXPR",
+                      "href": "docs/l10n__langinfo___spec.html#L170C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 171,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Regular expression which can be used to recognize a positive response"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 172,
                   "children": [
                     {
                       "kind": "span",
@@ -2213,7 +2462,62 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 173,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 174,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "NOEXPR",
+                      "href": "docs/l10n__langinfo___spec.html#L174C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 175,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  Regular expression which can be used to recognize a negative response"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 176,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "--  to a yes/no question."
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 177,
                   "children": [
                     {
                       "kind": "span",
@@ -2229,7 +2533,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/l10n.langinfo.html#L8C9"
+                      "href": "docs/l10n__langinfo___spec.html#L35C9"
                     }
                   ]
                 }
@@ -2239,7 +2543,7 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "CODESET",
-              "line": 9,
+              "line": 36,
               "column": 7,
               "description": [
                 {
@@ -2259,7 +2563,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "RADIXCHAR",
-              "line": 13,
+              "line": 40,
               "column": 7,
               "description": [
                 {
@@ -2283,7 +2587,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "THOUSEP",
-              "line": 18,
+              "line": 45,
               "column": 7,
               "description": [
                 {
@@ -2307,49 +2611,49 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ABDAY_1",
-              "line": 23,
+              "line": 50,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABDAY_2",
-              "line": 24,
+              "line": 51,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABDAY_3",
-              "line": 25,
+              "line": 52,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABDAY_4",
-              "line": 26,
+              "line": 53,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABDAY_5",
-              "line": 27,
+              "line": 54,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABDAY_6",
-              "line": 28,
+              "line": 55,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABDAY_7",
-              "line": 29,
+              "line": 56,
               "column": 7,
               "description": [
                 {
@@ -2369,49 +2673,49 @@ GNATdoc.Documentation = {
             },
             {
               "label": "DAY_1",
-              "line": 33,
+              "line": 60,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "DAY_2",
-              "line": 34,
+              "line": 61,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "DAY_3",
-              "line": 35,
+              "line": 62,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "DAY_4",
-              "line": 36,
+              "line": 63,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "DAY_5",
-              "line": 37,
+              "line": 64,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "DAY_6",
-              "line": 38,
+              "line": 65,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "DAY_7",
-              "line": 39,
+              "line": 66,
               "column": 7,
               "description": [
                 {
@@ -2431,84 +2735,84 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ABMON_1",
-              "line": 43,
+              "line": 70,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_2",
-              "line": 44,
+              "line": 71,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_3",
-              "line": 45,
+              "line": 72,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_4",
-              "line": 46,
+              "line": 73,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_5",
-              "line": 47,
+              "line": 74,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_6",
-              "line": 48,
+              "line": 75,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_7",
-              "line": 49,
+              "line": 76,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_8",
-              "line": 50,
+              "line": 77,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_9",
-              "line": 51,
+              "line": 78,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_10",
-              "line": 52,
+              "line": 79,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_11",
-              "line": 53,
+              "line": 80,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "ABMON_12",
-              "line": 54,
+              "line": 81,
               "column": 7,
               "description": [
                 {
@@ -2528,84 +2832,84 @@ GNATdoc.Documentation = {
             },
             {
               "label": "MON_1",
-              "line": 58,
+              "line": 85,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_2",
-              "line": 59,
+              "line": 86,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_3",
-              "line": 60,
+              "line": 87,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_4",
-              "line": 61,
+              "line": 88,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_5",
-              "line": 62,
+              "line": 89,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_6",
-              "line": 63,
+              "line": 90,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_7",
-              "line": 64,
+              "line": 91,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_8",
-              "line": 65,
+              "line": 92,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_9",
-              "line": 66,
+              "line": 93,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_10",
-              "line": 67,
+              "line": 94,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_11",
-              "line": 68,
+              "line": 95,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "MON_12",
-              "line": 69,
+              "line": 96,
               "column": 7,
               "description": [
                 {
@@ -2625,14 +2929,14 @@ GNATdoc.Documentation = {
             },
             {
               "label": "AM_STR",
-              "line": 73,
+              "line": 100,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "PM_STR",
-              "line": 74,
+              "line": 101,
               "column": 7,
               "description": [
                 {
@@ -2660,7 +2964,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "D_T_FMT",
-              "line": 80,
+              "line": 107,
               "column": 7,
               "description": [
                 {
@@ -2680,7 +2984,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "D_FMT",
-              "line": 84,
+              "line": 111,
               "column": 7,
               "description": [
                 {
@@ -2700,7 +3004,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "T_FMT",
-              "line": 88,
+              "line": 115,
               "column": 7,
               "description": [
                 {
@@ -2720,7 +3024,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "T_FMT_AMPM",
-              "line": 92,
+              "line": 119,
               "column": 7,
               "description": [
                 {
@@ -2752,7 +3056,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERA",
-              "line": 99,
+              "line": 126,
               "column": 7,
               "description": [
                 {
@@ -2776,7 +3080,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERA_D_FMT",
-              "line": 104,
+              "line": 131,
               "column": 7,
               "description": [
                 {
@@ -2796,7 +3100,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ALT_DIGITS",
-              "line": 108,
+              "line": 135,
               "column": 7,
               "description": [
                 {
@@ -2820,7 +3124,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERA_D_T_FMT",
-              "line": 113,
+              "line": 140,
               "column": 7,
               "description": [
                 {
@@ -2840,7 +3144,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "ERA_T_FMT",
-              "line": 117,
+              "line": 144,
               "column": 7,
               "description": [
                 {
@@ -2859,8 +3163,105 @@ GNATdoc.Documentation = {
               ]
             },
             {
+              "label": "ALTMON_1",
+              "line": 148,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_2",
+              "line": 149,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_3",
+              "line": 150,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_4",
+              "line": 151,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_5",
+              "line": 152,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_6",
+              "line": 153,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_7",
+              "line": 154,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_8",
+              "line": 155,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_9",
+              "line": 156,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_10",
+              "line": 157,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_11",
+              "line": 158,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "ALTMON_12",
+              "line": 159,
+              "column": 7,
+              "description": [
+                {
+                  "kind": "paragraph",
+                  "children": [
+                    {
+                      "kind": "span",
+                      "text": "Long month names, in the grammatical form used when the month\n"
+                    },
+                    {
+                      "kind": "span",
+                      "text": "is named by itself. ALTMON_1 corresponds to January.\n"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "label": "CRNCYSTR",
-              "line": 121,
+              "line": 163,
               "column": 7,
               "description": [
                 {
@@ -2892,7 +3293,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "YESEXPR",
-              "line": 128,
+              "line": 170,
               "column": 7,
               "description": [
                 {
@@ -2912,7 +3313,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "NOEXPR",
-              "line": 132,
+              "line": 174,
               "column": 7,
               "description": [
                 {
@@ -2939,7 +3340,8 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "Nl_Langinfo",
-          "line": 139,
+          "qualifier": "",
+          "line": 181,
           "column": 13,
           "src": "srcs/l10n-langinfo.ads.html",
           "summary": [
@@ -2950,7 +3352,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
@@ -2971,7 +3373,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Nl_Langinfo",
-                      "href": "docs/l10n.langinfo.html#L139C13"
+                      "href": "docs/l10n__langinfo___spec.html#L181C13"
                     },
                     {
                       "kind": "span",
@@ -2987,7 +3389,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Item",
-                      "href": "docs/l10n.langinfo.html#L139C26"
+                      "href": "docs/l10n__langinfo___spec.html#L181C26"
                     },
                     {
                       "kind": "span",
@@ -3008,7 +3410,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Locale_Item",
-                      "href": "docs/l10n.langinfo.html#L8C9"
+                      "href": "docs/l10n__langinfo___spec.html#L35C9"
                     },
                     {
                       "kind": "span",
@@ -3061,16 +3463,20 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Item",
-              "line": 139,
+              "line": 181,
               "column": 26,
               "type": {
                 "label": "L10n.Langinfo.Locale_Item",
-                "docHref": "docs/l10n.langinfo.html#L8C9"
+                "docHref": "docs/l10n__langinfo___spec.html#L35C9"
               },
               "description": [
               ]
             }
-          ]
+          ],
+          "returns": {
+            "description": [
+            ]
+          }
         }
       ],
       "label": "Subprograms"

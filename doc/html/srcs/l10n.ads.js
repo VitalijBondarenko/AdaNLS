@@ -30,7 +30,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "comment",
-          "text": "-- Copyright (c) 2014-2015 Vitalij Bondarenko <vibondare@gmail.com>         --"
+          "text": "-- Copyright (c) 2014-2022 Vitalii Bondarenko <vibondare@gmail.com>         --"
         }
       ]
     },
@@ -339,7 +339,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "L10n",
-          "href": "docs/l10n.html#L31C9"
+          "href": "docs/l10n___spec.html#L31C9"
         },
         {
           "kind": "span",
@@ -419,7 +419,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -509,7 +509,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_CTYPE",
-          "href": "docs/l10n.html#L39C4"
+          "href": "docs/l10n___spec.html#L39C4"
         },
         {
           "kind": "span",
@@ -540,7 +540,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -582,7 +582,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_NUMERIC",
-          "href": "docs/l10n.html#L40C4"
+          "href": "docs/l10n___spec.html#L40C4"
         },
         {
           "kind": "span",
@@ -613,7 +613,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -655,7 +655,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_TIME",
-          "href": "docs/l10n.html#L41C4"
+          "href": "docs/l10n___spec.html#L41C4"
         },
         {
           "kind": "span",
@@ -686,7 +686,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -728,7 +728,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_COLLATE",
-          "href": "docs/l10n.html#L42C4"
+          "href": "docs/l10n___spec.html#L42C4"
         },
         {
           "kind": "span",
@@ -759,7 +759,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -801,7 +801,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_MONETARY",
-          "href": "docs/l10n.html#L43C4"
+          "href": "docs/l10n___spec.html#L43C4"
         },
         {
           "kind": "span",
@@ -832,7 +832,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -874,7 +874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_MESSAGES",
-          "href": "docs/l10n.html#L44C4"
+          "href": "docs/l10n___spec.html#L44C4"
         },
         {
           "kind": "span",
@@ -905,7 +905,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -947,7 +947,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_ALL",
-          "href": "docs/l10n.html#L45C4"
+          "href": "docs/l10n___spec.html#L45C4"
         },
         {
           "kind": "span",
@@ -978,7 +978,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1020,7 +1020,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_PAPER",
-          "href": "docs/l10n.html#L46C4"
+          "href": "docs/l10n___spec.html#L46C4"
         },
         {
           "kind": "span",
@@ -1051,7 +1051,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1093,7 +1093,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_NAME",
-          "href": "docs/l10n.html#L47C4"
+          "href": "docs/l10n___spec.html#L47C4"
         },
         {
           "kind": "span",
@@ -1124,7 +1124,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1166,7 +1166,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_ADDRESS",
-          "href": "docs/l10n.html#L48C4"
+          "href": "docs/l10n___spec.html#L48C4"
         },
         {
           "kind": "span",
@@ -1197,7 +1197,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1239,7 +1239,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_TELEPHONE",
-          "href": "docs/l10n.html#L49C4"
+          "href": "docs/l10n___spec.html#L49C4"
         },
         {
           "kind": "span",
@@ -1270,7 +1270,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1312,7 +1312,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_MEASUREMENT",
-          "href": "docs/l10n.html#L50C4"
+          "href": "docs/l10n___spec.html#L50C4"
         },
         {
           "kind": "span",
@@ -1343,7 +1343,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1385,7 +1385,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "LC_IDENTIFICATION",
-          "href": "docs/l10n.html#L51C4"
+          "href": "docs/l10n___spec.html#L51C4"
         },
         {
           "kind": "span",
@@ -1416,7 +1416,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1474,7 +1474,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Set_Locale",
-          "href": "docs/l10n.html#L53C14"
+          "href": "docs/l10n___spec.html#L53C14"
         }
       ]
     },
@@ -1496,7 +1496,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Category",
-          "href": "docs/l10n.html#L54C7"
+          "href": "docs/l10n___spec.html#L54C7"
         },
         {
           "kind": "span",
@@ -1517,7 +1517,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",
@@ -1553,7 +1553,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale",
-          "href": "docs/l10n.html#L54C45"
+          "href": "docs/l10n___spec.html#L54C45"
         },
         {
           "kind": "span",
@@ -1796,7 +1796,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Get_Locale",
-          "href": "docs/l10n.html#L66C13"
+          "href": "docs/l10n___spec.html#L66C13"
         },
         {
           "kind": "span",
@@ -1812,7 +1812,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Category",
-          "href": "docs/l10n.html#L66C25"
+          "href": "docs/l10n___spec.html#L66C25"
         },
         {
           "kind": "span",
@@ -1833,7 +1833,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Locale_Category",
-          "href": "docs/l10n.html#L35C9"
+          "href": "docs/l10n___spec.html#L35C9"
         },
         {
           "kind": "span",

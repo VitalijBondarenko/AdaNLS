@@ -82,6 +82,23 @@ GNATdoc.SourceFile = [];
 GNATdoc.SourceFileIndex = [];
 
 /**
+ * Creates HTML element and sets its 'className' property.
+ *
+ * @param {String} tagName  The tag name of created element
+ * @param {String} cssClass  Name of CSS class
+ */
+
+function createElementAndSetClass(tagName, cssClass) {
+    var element = document.createElement(tagName);
+
+    if (cssClass !== undefined) {
+        element.className = cssClass;
+    }
+
+    return element;
+}
+
+/**
  * ???
  *
  * @param {Element} root  The element to which we add the documentation.
@@ -121,17 +138,17 @@ function buildText(root, data) {
                break;
 
            case GNATdoc.EntityKind.PARAGRAPH:
-               element = document.createElement('p');
+               element = createElementAndSetClass('p', data[index].cssClass);
                buildText(element, data[index].children);
                break;
 
            case GNATdoc.EntityKind.UL:
-               element = document.createElement('ul');
+               element = createElementAndSetClass('ul', data[index].cssClass);
                buildText(element, data[index].children);
                break;
 
            case GNATdoc.EntityKind.LI:
-               element = document.createElement('li');
+               element = createElementAndSetClass('li', data[index].cssClass);
                buildText(element, data[index].children);
                break;
 
@@ -140,7 +157,14 @@ function buildText(root, data) {
 
                if (data[index].href !== undefined) {
                    var a = document.createElement('a');
-                   a.href = '../' + data[index].href;
+                   var isAbsoluteURL = new RegExp('^(?:[a-z]+:)?//', 'i');
+
+                   //  When URL is absolute use it as is, otherwise apply
+                   //  correction to point to expected location.
+                   a.href =
+                     isAbsoluteURL.test(data[index].href) ?
+                                          data[index].href :
+                                          '../' + data[index].href;
                    a.appendChild(document.createTextNode(data[index].text));
                    element.appendChild(a);
 
@@ -163,12 +187,35 @@ function buildText(root, data) {
 
            case GNATdoc.EntityKind.HTML:
                element = document.createElement('span');
-               element.innerHtml = data[index].html;
+               element.innerHTML = data[index].html;
 
                break;
        }
        root.appendChild(element);
    }
+}
+
+/**
+ * ???
+ */
+
+function buildInstantiationInformation(pane, entity) {
+    //  Display instantiation information
+
+    if (entity.instantiation !== undefined) {
+        var paragraph = document.createElement('p');
+        paragraph.appendChild(
+          document.createTextNode('Instantiation of '));
+
+        var href = document.createElement('a');
+        href.href = '../' + entity.instantiation.docHref;
+        href.target = 'contentView';
+        href.appendChild(
+          document.createTextNode(entity.instantiation.label));
+        paragraph.appendChild(href);
+
+        pane.appendChild(paragraph);
+    }
 }
 
 /**
@@ -182,6 +229,10 @@ function buildDocumentationPage() {
 
     var header = document.createElement('h1');
     var text = document.createTextNode(GNATdoc.Documentation.label);
+    if (GNATdoc.Documentation.qualifier != '') {
+        text.appendData(' ');
+        text.appendData(GNATdoc.Documentation.qualifier);
+    }
     header.appendChild(text);
     pane.appendChild(header);
     buildText(pane, GNATdoc.Documentation.summary);
@@ -216,7 +267,7 @@ function buildDocumentationPage() {
         for (var eindex = 0; eindex < entity_set.entities.length; eindex++) {
             var entity = entity_set.entities[eindex];
             var row = document.createElement('tr');
-            var cell = document.createElement('th');
+            var cell = document.createElement('td');
             var href = document.createElement('a');
 
             if (entity.href !== undefined) {
@@ -228,6 +279,13 @@ function buildDocumentationPage() {
 
             href.appendChild(document.createTextNode(entity.label));
             cell.appendChild(href);
+
+            if (entity.qualifier !== '')
+            {
+                cell.appendChild(
+                  document.createTextNode(' ' + entity.qualifier));
+            }
+
             row.appendChild(cell);
             cell = document.createElement('td');
             buildText(cell, entity.summary);
@@ -248,6 +306,25 @@ function buildDocumentationPage() {
     pane.appendChild(header);
     buildText(pane, GNATdoc.Documentation.description);
 
+    //  Display renaming information
+
+    if (GNATdoc.Documentation.renaming !== undefined) {
+        var paragraph = document.createElement('p');
+        paragraph.appendChild(
+          document.createTextNode('Renaming of '));
+
+        href = document.createElement('a');
+        href.href = '../' + GNATdoc.Documentation.renaming.docHref;
+        href.target = 'contentView';
+        href.appendChild(
+          document.createTextNode(GNATdoc.Documentation.renaming.label));
+        paragraph.appendChild(href);
+
+        pane.appendChild(paragraph);
+    }
+
+    buildInstantiationInformation(pane, GNATdoc.Documentation);
+
     /* Build entities description sections */
 
     for (var index = 0; index < GNATdoc.Documentation.entities.length; index++)
@@ -257,20 +334,27 @@ function buildDocumentationPage() {
         for (var eindex = 0; eindex < entity_set.entities.length; eindex++) {
             var list = null;
             var entity = entity_set.entities[eindex];
+            var titleText;
 
             if (entity.href === undefined) {
+                titleText = entity.label;
+                if (entity.qualifier !== '')
+                    titleText += ' ' + entity.qualifier;
+
                 header = document.createElement('h3');
                 header.id = 'L' + entity.line.toString() +
                   'C' + entity.column.toString();
-                header.appendChild(document.createTextNode(entity.label));
-                var sup = document.createElement('sup');
-                sup.className = 'srcHref';
-                href = document.createElement('a');
-                href.href = '../' + entity.src +
-                  '#L' + entity.line.toString();
-                href.appendChild(document.createTextNode(' [source]'));
-                sup.appendChild(href);
-                header.appendChild(sup);
+                header.appendChild(document.createTextNode(titleText));
+                if (entity.src !== undefined) {
+                    var sup = document.createElement('sup');
+                    sup.className = 'srcHref';
+                    href = document.createElement('a');
+                    href.href = '../' + entity.src +
+                      '#L' + entity.line.toString();
+                    href.appendChild(document.createTextNode(' [source]'));
+                    sup.appendChild(href);
+                    header.appendChild(sup);
+                }
                 pane.appendChild(header);
                 buildText(pane, entity.description);
 
@@ -330,8 +414,34 @@ function buildDocumentationPage() {
                     pane.appendChild(paragraph);
                 }
 
-                if (entity.parameters !== undefined) {
+                //  Display instantiation information
+
+                buildInstantiationInformation(pane, entity);
+
+                if (entity.generic_parameters !== undefined) {
                     list = document.createElement('dl');
+
+                    for (var pindex = 0;
+                         pindex < entity.generic_parameters.length;
+                         pindex++)
+                    {
+                        var parameter = entity.generic_parameters[pindex];
+                        var term = document.createElement('dt');
+                        term.id = 'L' + parameter.line.toString() +
+                            'C' + parameter.column.toString();
+                        term.appendChild(
+                          document.createTextNode(parameter.label));
+
+                        var description = document.createElement('dd');
+                        buildText(description, parameter.description);
+
+                        list.appendChild(term);
+                        list.appendChild(description);
+                    }
+                }
+
+                if (entity.parameters !== undefined) {
+                    list = list || document.createElement('dl');
 
                     for (var pindex = 0;
                          pindex < entity.parameters.length;
@@ -345,9 +455,16 @@ function buildDocumentationPage() {
                           document.createTextNode(parameter.label));
                         term.appendChild(
                           document.createTextNode(' of type '));
-                        href = document.createElement('a');
-                        href.href = '../' + parameter.type.docHref;
-                        href.target = 'contentView';
+
+                        if (parameter.type.docHref !== undefined)
+                        {
+                            href = document.createElement('a');
+                            href.href = '../' + parameter.type.docHref;
+                            href.target = 'contentView';
+                        } else {
+                            href = document.createElement('span');
+                        }
+
                         href.appendChild(
                           document.createTextNode(parameter.type.label));
                         term.appendChild(href);
@@ -368,9 +485,16 @@ function buildDocumentationPage() {
 
                     if (entity.returns.type !== undefined) {
                         term.appendChild(document.createTextNode(' of type '));
-                        href = document.createElement('a');
-                        href.href = '../' + entity.returns.type.docHref;
-                        href.target = 'contentView';
+
+                        if (entity.returns.type.docHref !== undefined)
+                        {
+                            href = document.createElement('a');
+                            href.href = '../' + entity.returns.type.docHref;
+                            href.target = 'contentView';
+                        } else {
+                            href = document.createElement('span');
+                        }
+
                         href.appendChild(
                           document.createTextNode(entity.returns.type.label));
                         term.appendChild(href);
@@ -410,9 +534,16 @@ function buildDocumentationPage() {
                           document.createTextNode(field.label));
                         term.appendChild(
                           document.createTextNode(' of type '));
-                        href = document.createElement('a');
-                        href.href = '../' + field.type.docHref;
-                        href.target = 'contentView';
+
+                        if (field.type.docHref !== undefined)
+                        {
+                            href = document.createElement('a');
+                            href.href = '../' + field.type.docHref;
+                            href.target = 'contentView';
+                        } else {
+                            href = document.createElement('span');
+                        }
+
                         href.appendChild(
                           document.createTextNode(field.type.label));
                         term.appendChild(href);
@@ -476,6 +607,10 @@ function buildPackagesIndexList(entries) {
             href.href = entry.file;
             href.target = 'contentView';
             text = document.createTextNode(entry.label);
+            if (entry.qualifier != '') {
+                text.appendData(' ');
+                text.appendData(entry.qualifier);
+            }
             href.appendChild(text);
             item.appendChild(href);
             list.appendChild(item);
@@ -591,9 +726,21 @@ function buildEntitiesCategoryPage() {
         item.appendChild(href);
         item.appendChild(document.createTextNode(' from '));
 
-        href = document.createElement('a');
-        href.href = '../' + entity.srcHref;
-        href.appendChild(document.createTextNode(entity.declared));
+        if (entity.srcHref !== undefined) {
+            href = document.createElement('a');
+            href.href = '../' + entity.srcHref;
+        } else {
+            href = document.createElement('span');
+        }
+
+        var text = document.createTextNode(entity.declared);
+
+        if (entity.declared_qualifier != '') {
+            text.appendData(' ');
+            text.appendData(entity.declared_qualifier);
+        }
+
+        href.appendChild(text);
         item.appendChild(href);
         list.appendChild(item);
     }
