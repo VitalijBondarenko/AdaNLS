@@ -128,6 +128,10 @@ package L10n.Langinfo is
       --  not define this value. Normally it should not be necessary to use
       --  this value directly.
 
+      ERA_YEAR,
+      --  The return value gives the year in the relevant era of the locale.
+      --   As for ERA it should not be necessary to use this value directly.
+
       ERA_D_FMT,
       --  Value can be used as a format string for represent a date in a
       --  locale-specific era-based way.
@@ -241,6 +245,7 @@ private
       T_FMT_AMPM  => 16#2002B#,
 
       ERA         => 16#2002C#,
+      ERA_YEAR    => 16#2002D#,
       ERA_D_FMT   => 16#2002E#,
       ALT_DIGITS  => 16#2002F#,
       ERA_D_T_FMT => 16#20030#,
